@@ -1,0 +1,438 @@
+2025-07-16 19:46:47,018 - INFO: ================================================================================
+2025-07-16 19:46:47,019 - INFO: Polymarket batch fetcher started
+2025-07-16 19:46:47,019 - INFO: URLs      : 10
+2025-07-16 19:46:47,020 - INFO: interval  : max | fidelity: 1
+2025-07-16 19:46:47,020 - INFO: trades    : False | book: False
+2025-07-16 19:46:47,020 - INFO: batch dir : runs\20250716_194647
+2025-07-16 19:46:47,020 - INFO: ================================================================================
+2025-07-16 19:46:47,020 - INFO: ----- [1 / 10] https://polymarket.com/event/top-ai-model-on-december-31
+2025-07-16 19:46:47,862 - INFO: Market 1 / 5
+2025-07-16 19:46:47,863 - INFO: • Will Gemini have the top AI model on December 31?
+2025-07-16 19:46:48,683 - WARNING:   ! no price data
+2025-07-16 19:46:48,684 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-december-31\top-ai-model-on-december-31-will-gemini-have-the-top-ai-model-on-december-31-metadata.json
+2025-07-16 19:46:48,685 - INFO: Market 2 / 5
+2025-07-16 19:46:48,685 - INFO: • Will another model be the top AI model on December 31?
+2025-07-16 19:46:49,549 - WARNING:   ! no price data
+2025-07-16 19:46:49,553 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-december-31\top-ai-model-on-december-31-will-another-model-be-the-top-ai-model-on-december-31-metadata.json
+2025-07-16 19:46:49,554 - INFO: Market 3 / 5
+2025-07-16 19:46:49,554 - INFO: • Will ChatGPT have the top AI model on December 31?
+2025-07-16 19:46:50,325 - WARNING:   ! no price data
+2025-07-16 19:46:50,326 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-december-31\top-ai-model-on-december-31-will-chatgpt-have-the-top-ai-model-on-december-31-metadata.json
+2025-07-16 19:46:50,326 - INFO: Market 4 / 5
+2025-07-16 19:46:50,326 - INFO: • Will Grok have the top AI model on December 31?
+2025-07-16 19:46:51,227 - WARNING:   ! no price data
+2025-07-16 19:46:51,228 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-december-31\top-ai-model-on-december-31-will-grok-have-the-top-ai-model-on-december-31-metadata.json
+2025-07-16 19:46:51,228 - INFO: Market 5 / 5
+2025-07-16 19:46:51,229 - INFO: • Will Claude have the top AI model on December 31?
+2025-07-16 19:46:52,018 - WARNING:   ! no price data
+2025-07-16 19:46:52,021 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-december-31\top-ai-model-on-december-31-will-claude-have-the-top-ai-model-on-december-31-metadata.json
+2025-07-16 19:46:52,021 - INFO: ----- [2 / 10] https://polymarket.com/event/top-ai-model-on-january-31
+2025-07-16 19:46:52,877 - INFO: Market 1 / 6
+2025-07-16 19:46:52,877 - INFO: • Will Google have the top AI model on January 31?
+2025-07-16 19:46:53,743 - WARNING:   ! no price data
+2025-07-16 19:46:53,746 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-google-have-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:53,747 - INFO: Market 2 / 6
+2025-07-16 19:46:53,748 - INFO: • Will OpenAI have the top AI model on January 31?
+2025-07-16 19:46:54,659 - WARNING:   ! no price data
+2025-07-16 19:46:54,664 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-openai-have-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:54,664 - INFO: Market 3 / 6
+2025-07-16 19:46:54,665 - INFO: • Will Anthropic have the top AI model on January 31?
+2025-07-16 19:46:55,470 - WARNING:   ! no price data
+2025-07-16 19:46:55,473 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-anthropic-have-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:55,474 - INFO: Market 4 / 6
+2025-07-16 19:46:55,474 - INFO: • Will xAI have the top AI model on January 31?
+2025-07-16 19:46:56,353 - WARNING:   ! no price data
+2025-07-16 19:46:56,354 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-xai-have-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:56,355 - INFO: Market 5 / 6
+2025-07-16 19:46:56,355 - INFO: • Will another model be the top AI model on January 31?
+2025-07-16 19:46:57,173 - WARNING:   ! no price data
+2025-07-16 19:46:57,176 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-another-model-be-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:57,177 - INFO: Market 6 / 6
+2025-07-16 19:46:57,178 - INFO: • Will Meta have the top AI model on January 31?
+2025-07-16 19:46:58,037 - WARNING:   ! no price data
+2025-07-16 19:46:58,041 - INFO:   ✓ metadata → runs\20250716_194647\top-ai-model-on-january-31\top-ai-model-on-january-31-will-meta-have-the-top-ai-model-on-january-31-metadata.json
+2025-07-16 19:46:58,042 - INFO: ----- [3 / 10] https://polymarket.com/event/which-company-has-best-ai-model-on-february-28
+2025-07-16 19:46:59,481 - INFO: Market 1 / 12
+2025-07-16 19:46:59,481 - INFO: • Will Company B have the top AI model on February 28?
+2025-07-16 19:47:00,250 - WARNING:   ! no price data
+2025-07-16 19:47:00,252 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-company-b-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:00,254 - INFO: Market 2 / 12
+2025-07-16 19:47:00,256 - INFO: • Will Anthropic have the top AI model on February 28?
+2025-07-16 19:47:01,030 - WARNING:   ! no price data
+2025-07-16 19:47:01,033 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-anthropic-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:01,036 - INFO: Market 3 / 12
+2025-07-16 19:47:01,037 - INFO: • Will StepFun have the top AI model on February 28?
+2025-07-16 19:47:02,523 - WARNING:   ! no price data
+2025-07-16 19:47:02,523 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-stepfun-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:02,523 - INFO: Market 4 / 12
+2025-07-16 19:47:02,523 - INFO: • Will DeepSeek have the top AI model on February 28?
+2025-07-16 19:47:03,721 - WARNING:   ! no price data
+2025-07-16 19:47:03,723 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-deepseek-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:03,723 - INFO: Market 5 / 12
+2025-07-16 19:47:03,723 - INFO: • Will Google have the top AI model on February 28?
+2025-07-16 19:47:04,462 - WARNING:   ! no price data
+2025-07-16 19:47:04,462 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-google-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:04,462 - INFO: Market 6 / 12
+2025-07-16 19:47:04,462 - INFO: • Will OpenAI have the top AI model on February 28?
+2025-07-16 19:47:05,453 - WARNING:   ! no price data
+2025-07-16 19:47:05,462 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-openai-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:05,462 - INFO: Market 7 / 12
+2025-07-16 19:47:05,462 - INFO: • Will Meta have the top AI model on February 28?
+2025-07-16 19:47:06,203 - WARNING:   ! no price data
+2025-07-16 19:47:06,203 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-meta-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:06,203 - INFO: Market 8 / 12
+2025-07-16 19:47:06,211 - INFO: • Will xAI have the top AI model on February 28?
+2025-07-16 19:47:06,962 - WARNING:   ! no price data
+2025-07-16 19:47:06,973 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-xai-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:06,973 - INFO: Market 9 / 12
+2025-07-16 19:47:06,973 - INFO: • Will Alibaba have the top AI model on February 28?
+2025-07-16 19:47:07,733 - WARNING:   ! no price data
+2025-07-16 19:47:07,741 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-alibaba-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:07,743 - INFO: Market 10 / 12
+2025-07-16 19:47:07,743 - INFO: • Will Company C have the top AI model on February 28?
+2025-07-16 19:47:08,563 - WARNING:   ! no price data
+2025-07-16 19:47:08,563 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-company-c-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:08,563 - INFO: Market 11 / 12
+2025-07-16 19:47:08,571 - INFO: • Will Company D have the top AI model on February 28?
+2025-07-16 19:47:09,322 - WARNING:   ! no price data
+2025-07-16 19:47:09,322 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-company-d-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:09,322 - INFO: Market 12 / 12
+2025-07-16 19:47:09,322 - INFO: • Will another company have the top AI model on February 28?
+2025-07-16 19:47:10,282 - WARNING:   ! no price data
+2025-07-16 19:47:10,282 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-february-28\which-company-has-best-ai-model-on-february-28-will-another-company-have-the-top-ai-model-on-february-28-metadata.json
+2025-07-16 19:47:10,282 - INFO: ----- [4 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-march
+2025-07-16 19:47:11,303 - INFO: Market 1 / 15
+2025-07-16 19:47:11,303 - INFO: • Will Google have the top AI model on March 31?
+2025-07-16 19:47:12,082 - WARNING:   ! no price data
+2025-07-16 19:47:12,082 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-google-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:12,092 - INFO: Market 2 / 15
+2025-07-16 19:47:12,093 - INFO: • Will OpenAI have the top AI model on March 31?
+2025-07-16 19:47:12,953 - WARNING:   ! no price data
+2025-07-16 19:47:12,962 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-openai-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:12,962 - INFO: Market 3 / 15
+2025-07-16 19:47:12,962 - INFO: • Will xAI have the top AI model on March 31?
+2025-07-16 19:47:13,764 - WARNING:   ! no price data
+2025-07-16 19:47:13,764 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-xai-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:13,764 - INFO: Market 4 / 15
+2025-07-16 19:47:13,771 - INFO: • Will Anthropic have the top AI model on March 31?
+2025-07-16 19:47:14,562 - WARNING:   ! no price data
+2025-07-16 19:47:14,562 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-anthropic-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:14,562 - INFO: Market 5 / 15
+2025-07-16 19:47:14,562 - INFO: • Will another company have the top AI model on March 31?
+2025-07-16 19:47:15,283 - WARNING:   ! no price data
+2025-07-16 19:47:15,283 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-another-company-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:15,283 - INFO: Market 6 / 15
+2025-07-16 19:47:15,292 - INFO: • Will Meta have the top AI model on March 31?
+2025-07-16 19:47:16,032 - WARNING:   ! no price data
+2025-07-16 19:47:16,036 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-meta-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:16,041 - INFO: Market 7 / 15
+2025-07-16 19:47:16,043 - INFO: • Will Alibaba have the top AI model on March 31?
+2025-07-16 19:47:16,793 - WARNING:   ! no price data
+2025-07-16 19:47:16,802 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-alibaba-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:16,802 - INFO: Market 8 / 15
+2025-07-16 19:47:16,802 - INFO: • Will DeepSeek have the top AI model on March 31?
+2025-07-16 19:47:17,552 - WARNING:   ! no price data
+2025-07-16 19:47:17,562 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-deepseek-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:17,562 - INFO: Market 9 / 15
+2025-07-16 19:47:17,563 - INFO: • Will Company A have the top AI model on March 31?
+2025-07-16 19:47:18,313 - WARNING:   ! no price data
+2025-07-16 19:47:18,313 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-a-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:18,321 - INFO: Market 10 / 15
+2025-07-16 19:47:18,322 - INFO: • Will Company B have the top AI model on March 31?
+2025-07-16 19:47:19,184 - WARNING:   ! no price data
+2025-07-16 19:47:19,184 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-b-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:19,184 - INFO: Market 11 / 15
+2025-07-16 19:47:19,192 - INFO: • Will Company D have the top AI model on March 31?
+2025-07-16 19:47:19,932 - WARNING:   ! no price data
+2025-07-16 19:47:19,932 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-d-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:19,932 - INFO: Market 12 / 15
+2025-07-16 19:47:19,932 - INFO: • Will Company E have the top AI model on March 31?
+2025-07-16 19:47:20,702 - WARNING:   ! no price data
+2025-07-16 19:47:20,702 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-e-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:20,702 - INFO: Market 13 / 15
+2025-07-16 19:47:20,711 - INFO: • Will Company G have the top AI model on March 31?
+2025-07-16 19:47:21,572 - WARNING:   ! no price data
+2025-07-16 19:47:21,572 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-g-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:21,572 - INFO: Market 14 / 15
+2025-07-16 19:47:21,572 - INFO: • Will Company C have the top AI model on March 31?
+2025-07-16 19:47:23,363 - WARNING:   ! no price data
+2025-07-16 19:47:23,363 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-c-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:23,363 - INFO: Market 15 / 15
+2025-07-16 19:47:23,372 - INFO: • Will Company F have the top AI model on March 31?
+2025-07-16 19:47:24,132 - WARNING:   ! no price data
+2025-07-16 19:47:24,132 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-march\which-company-has-best-ai-model-end-of-march-will-company-f-have-the-top-ai-model-on-march-31-metadata.json
+2025-07-16 19:47:24,132 - INFO: ----- [5 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-april
+2025-07-16 19:47:25,132 - INFO: Market 1 / 12
+2025-07-16 19:47:25,132 - INFO: • Will Google have the top AI model on April 30?
+2025-07-16 19:47:25,873 - WARNING:   ! no price data
+2025-07-16 19:47:25,882 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-google-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:25,882 - INFO: Market 2 / 12
+2025-07-16 19:47:25,882 - INFO: • Will xAI have the top AI model on April 30?
+2025-07-16 19:47:26,632 - WARNING:   ! no price data
+2025-07-16 19:47:26,641 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-xai-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:26,642 - INFO: Market 3 / 12
+2025-07-16 19:47:26,643 - INFO: • Will OpenAI have the top AI model on April 30?
+2025-07-16 19:47:27,413 - WARNING:   ! no price data
+2025-07-16 19:47:27,422 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-openai-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:27,422 - INFO: Market 4 / 12
+2025-07-16 19:47:27,422 - INFO: • Will DeepSeek have the top AI model on April 30?
+2025-07-16 19:47:28,152 - WARNING:   ! no price data
+2025-07-16 19:47:28,152 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-deepseek-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:28,152 - INFO: Market 5 / 12
+2025-07-16 19:47:28,162 - INFO: • Will Anthropic have the top AI model on April 30?
+2025-07-16 19:47:28,892 - WARNING:   ! no price data
+2025-07-16 19:47:28,892 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-anthropic-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:28,892 - INFO: Market 6 / 12
+2025-07-16 19:47:28,892 - INFO: • Will Meta have the top AI model on April 30?
+2025-07-16 19:47:29,634 - WARNING:   ! no price data
+2025-07-16 19:47:29,642 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-meta-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:29,642 - INFO: Market 7 / 12
+2025-07-16 19:47:29,642 - INFO: • Will Alibaba have the top AI model on April 30?
+2025-07-16 19:47:30,372 - WARNING:   ! no price data
+2025-07-16 19:47:30,372 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-alibaba-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:30,375 - INFO: Market 8 / 12
+2025-07-16 19:47:30,375 - INFO: • Will Company A have the top AI model on April 30?
+2025-07-16 19:47:31,182 - WARNING:   ! no price data
+2025-07-16 19:47:31,182 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-company-a-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:31,182 - INFO: Market 9 / 12
+2025-07-16 19:47:31,182 - INFO: • Will Company B have the top AI model on April 30?
+2025-07-16 19:47:31,941 - WARNING:   ! no price data
+2025-07-16 19:47:31,943 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-company-b-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:31,943 - INFO: Market 10 / 12
+2025-07-16 19:47:31,943 - INFO: • Will Company C have the top AI model on April 30?
+2025-07-16 19:47:32,712 - WARNING:   ! no price data
+2025-07-16 19:47:32,722 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-company-c-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:32,723 - INFO: Market 11 / 12
+2025-07-16 19:47:32,723 - INFO: • Will Company D have the top AI model on April 30?
+2025-07-16 19:47:33,493 - WARNING:   ! no price data
+2025-07-16 19:47:33,493 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-company-d-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:33,493 - INFO: Market 12 / 12
+2025-07-16 19:47:33,493 - INFO: • Will another company have the top AI model on April 30?
+2025-07-16 19:47:34,221 - WARNING:   ! no price data
+2025-07-16 19:47:34,223 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-april\which-company-has-best-ai-model-end-of-april-will-another-company-have-the-top-ai-model-on-april-30-metadata.json
+2025-07-16 19:47:34,223 - INFO: ----- [6 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-may
+2025-07-16 19:47:35,542 - INFO: Market 1 / 13
+2025-07-16 19:47:35,543 - INFO: • Will Google have the top AI model on May 31?
+2025-07-16 19:47:36,322 - WARNING:   ! no price data
+2025-07-16 19:47:36,322 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-google-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:36,322 - INFO: Market 2 / 13
+2025-07-16 19:47:36,322 - INFO: • Will OpenAI have the top AI model on May 31?
+2025-07-16 19:47:37,123 - WARNING:   ! no price data
+2025-07-16 19:47:37,132 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-openai-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:37,132 - INFO: Market 3 / 13
+2025-07-16 19:47:37,132 - INFO: • Will xAI have the top AI model on May 31?
+2025-07-16 19:47:37,932 - WARNING:   ! no price data
+2025-07-16 19:47:37,932 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-xai-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:37,932 - INFO: Market 4 / 13
+2025-07-16 19:47:37,932 - INFO: • Will DeepSeek have the top AI model on May 31?
+2025-07-16 19:47:38,682 - WARNING:   ! no price data
+2025-07-16 19:47:38,682 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-deepseek-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:38,682 - INFO: Market 5 / 13
+2025-07-16 19:47:38,682 - INFO: • Will Alibaba have the top AI model on May 31?
+2025-07-16 19:47:39,403 - WARNING:   ! no price data
+2025-07-16 19:47:39,412 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-alibaba-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:39,412 - INFO: Market 6 / 13
+2025-07-16 19:47:39,412 - INFO: • Will Meta have the top AI model on May 31?
+2025-07-16 19:47:40,195 - WARNING:   ! no price data
+2025-07-16 19:47:40,202 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-meta-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:40,202 - INFO: Market 7 / 13
+2025-07-16 19:47:40,202 - INFO: • Will Anthropic have the top AI model on May 31?
+2025-07-16 19:47:41,397 - WARNING:   ! no price data
+2025-07-16 19:47:41,397 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-anthropic-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:41,401 - INFO: Market 8 / 13
+2025-07-16 19:47:41,402 - INFO: • Will Company A have the top AI model on May 31?
+2025-07-16 19:47:42,112 - WARNING:   ! no price data
+2025-07-16 19:47:42,124 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-company-a-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:42,124 - INFO: Market 9 / 13
+2025-07-16 19:47:42,124 - INFO: • Will Company B have the top AI model on May 31?
+2025-07-16 19:47:42,873 - WARNING:   ! no price data
+2025-07-16 19:47:42,873 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-company-b-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:42,873 - INFO: Market 10 / 13
+2025-07-16 19:47:42,873 - INFO: • Will Company C have the top AI model on May 31?
+2025-07-16 19:47:43,662 - WARNING:   ! no price data
+2025-07-16 19:47:43,662 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-company-c-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:43,662 - INFO: Market 11 / 13
+2025-07-16 19:47:43,662 - INFO: • Will Company D have the top AI model on May 31?
+2025-07-16 19:47:44,432 - WARNING:   ! no price data
+2025-07-16 19:47:44,432 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-company-d-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:44,432 - INFO: Market 12 / 13
+2025-07-16 19:47:44,432 - INFO: • Will Company E have the top AI model on May 31?
+2025-07-16 19:47:45,173 - WARNING:   ! no price data
+2025-07-16 19:47:45,173 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-company-e-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:45,173 - INFO: Market 13 / 13
+2025-07-16 19:47:45,173 - INFO: • Will another company have the top AI model on May 31?
+2025-07-16 19:47:45,912 - WARNING:   ! no price data
+2025-07-16 19:47:45,912 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-may\which-company-has-best-ai-model-end-of-may-will-another-company-have-the-top-ai-model-on-may-31-metadata.json
+2025-07-16 19:47:45,912 - INFO: ----- [7 / 10] https://polymarket.com/event/which-company-has-best-ai-model-on-june-30
+2025-07-16 19:47:46,912 - INFO: Market 1 / 16
+2025-07-16 19:47:46,912 - INFO: • Will Google have the top AI model on June 30?
+2025-07-16 19:47:48,292 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-google-have-the-top-ai-model-on-june-30-prices.csv (2075 rows)
+2025-07-16 19:47:48,303 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-google-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:48,303 - INFO: Market 2 / 16
+2025-07-16 19:47:48,303 - INFO: • Will OpenAI have the top AI model on June 30?
+2025-07-16 19:47:49,675 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-openai-have-the-top-ai-model-on-june-30-prices.csv (2074 rows)
+2025-07-16 19:47:49,676 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-openai-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:49,677 - INFO: Market 3 / 16
+2025-07-16 19:47:49,677 - INFO: • Will xAI have the top AI model on June 30?
+2025-07-16 19:47:51,079 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-xai-have-the-top-ai-model-on-june-30-prices.csv (2074 rows)
+2025-07-16 19:47:51,081 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-xai-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:51,081 - INFO: Market 4 / 16
+2025-07-16 19:47:51,082 - INFO: • Will Company C have the top AI model on June 30?
+2025-07-16 19:47:51,802 - WARNING:   ! no price data
+2025-07-16 19:47:51,813 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-c-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:51,813 - INFO: Market 5 / 16
+2025-07-16 19:47:51,813 - INFO: • Will Anthropic have the top AI model on June 30?
+2025-07-16 19:47:53,212 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-anthropic-have-the-top-ai-model-on-june-30-prices.csv (2074 rows)
+2025-07-16 19:47:53,216 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-anthropic-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:53,216 - INFO: Market 6 / 16
+2025-07-16 19:47:53,216 - INFO: • Will Meta have the top AI model on June 30?
+2025-07-16 19:47:54,603 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-meta-have-the-top-ai-model-on-june-30-prices.csv (2074 rows)
+2025-07-16 19:47:54,612 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-meta-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:54,616 - INFO: Market 7 / 16
+2025-07-16 19:47:54,616 - INFO: • Will DeepSeek have the top AI model on June 30?
+2025-07-16 19:47:55,952 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-deepseek-have-the-top-ai-model-on-june-30-prices.csv (2073 rows)
+2025-07-16 19:47:55,961 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-deepseek-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:55,962 - INFO: Market 8 / 16
+2025-07-16 19:47:55,963 - INFO: • Will another company have the top AI model on June 30?
+2025-07-16 19:47:56,702 - WARNING:   ! no price data
+2025-07-16 19:47:56,702 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-another-company-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:56,702 - INFO: Market 9 / 16
+2025-07-16 19:47:56,702 - INFO: • Will Alibaba have the top AI model on June 30?
+2025-07-16 19:47:58,022 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-alibaba-have-the-top-ai-model-on-june-30-prices.csv (2074 rows)
+2025-07-16 19:47:58,022 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-alibaba-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:58,022 - INFO: Market 10 / 16
+2025-07-16 19:47:58,022 - INFO: • Will Company B have the top AI model on June 30?
+2025-07-16 19:47:58,763 - WARNING:   ! no price data
+2025-07-16 19:47:58,763 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-b-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:58,763 - INFO: Market 11 / 16
+2025-07-16 19:47:58,763 - INFO: • Will Company H have the top AI model on June 30?
+2025-07-16 19:47:59,552 - WARNING:   ! no price data
+2025-07-16 19:47:59,552 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-h-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:47:59,552 - INFO: Market 12 / 16
+2025-07-16 19:47:59,552 - INFO: • Will Company D have the top AI model on June 30?
+2025-07-16 19:48:00,302 - WARNING:   ! no price data
+2025-07-16 19:48:00,311 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-d-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:48:00,311 - INFO: Market 13 / 16
+2025-07-16 19:48:00,313 - INFO: • Will Company E have the top AI model on June 30?
+2025-07-16 19:48:01,081 - WARNING:   ! no price data
+2025-07-16 19:48:01,083 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-e-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:48:01,083 - INFO: Market 14 / 16
+2025-07-16 19:48:01,083 - INFO: • Will Company F have the top AI model on June 30?
+2025-07-16 19:48:01,833 - WARNING:   ! no price data
+2025-07-16 19:48:01,842 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-f-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:48:01,846 - INFO: Market 15 / 16
+2025-07-16 19:48:01,846 - INFO: • Will Company G have the top AI model on June 30?
+2025-07-16 19:48:02,592 - WARNING:   ! no price data
+2025-07-16 19:48:02,592 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-g-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:48:02,592 - INFO: Market 16 / 16
+2025-07-16 19:48:02,592 - INFO: • Will Company I have the top AI model on June 30?
+2025-07-16 19:48:03,583 - WARNING:   ! no price data
+2025-07-16 19:48:03,592 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-on-june-30\which-company-has-best-ai-model-on-june-30-will-company-i-have-the-top-ai-model-on-june-30-metadata.json
+2025-07-16 19:48:03,592 - INFO: ----- [8 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-july
+2025-07-16 19:48:05,402 - INFO: Market 1 / 13
+2025-07-16 19:48:05,402 - INFO: • Will a company not listed above have the top AI model on July 31?
+2025-07-16 19:48:06,243 - WARNING:   ! no price data
+2025-07-16 19:48:06,243 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-a-company-not-listed-above-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:06,243 - INFO: Market 2 / 13
+2025-07-16 19:48:06,243 - INFO: • Will Google have the top AI model on July 31?
+2025-07-16 19:48:07,703 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-google-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:07,703 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-google-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:07,703 - INFO: Market 3 / 13
+2025-07-16 19:48:07,712 - INFO: • Will Anthropic have the top AI model on July 31?
+2025-07-16 19:48:09,146 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-anthropic-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:09,151 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-anthropic-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:09,153 - INFO: Market 4 / 13
+2025-07-16 19:48:09,153 - INFO: • Will xAI have the top AI model on July 31?
+2025-07-16 19:48:10,581 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-xai-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:10,586 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-xai-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:10,586 - INFO: Market 5 / 13
+2025-07-16 19:48:10,586 - INFO: • Will OpenAI have the top AI model on July 31?
+2025-07-16 19:48:11,973 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-openai-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:11,973 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-openai-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:11,973 - INFO: Market 6 / 13
+2025-07-16 19:48:11,973 - INFO: • Will DeepSeek have the top AI model on July 31?
+2025-07-16 19:48:13,373 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-deepseek-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:13,373 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-deepseek-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:13,373 - INFO: Market 7 / 13
+2025-07-16 19:48:13,373 - INFO: • Will Alibaba have the top AI model on July 31?
+2025-07-16 19:48:14,853 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-alibaba-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:14,862 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-alibaba-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:14,866 - INFO: Market 8 / 13
+2025-07-16 19:48:14,866 - INFO: • Will Meta have the top AI model on July 31?
+2025-07-16 19:48:16,352 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-meta-have-the-top-ai-model-on-july-31-prices.csv (4321 rows)
+2025-07-16 19:48:16,352 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-meta-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:16,352 - INFO: Market 9 / 13
+2025-07-16 19:48:16,352 - INFO: • Will Company A have the top AI model on July 31?
+2025-07-16 19:48:17,082 - WARNING:   ! no price data
+2025-07-16 19:48:17,082 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-company-a-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:17,092 - INFO: Market 10 / 13
+2025-07-16 19:48:17,093 - INFO: • Will Company B have the top AI model on July 31?
+2025-07-16 19:48:17,868 - WARNING:   ! no price data
+2025-07-16 19:48:17,872 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-company-b-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:17,872 - INFO: Market 11 / 13
+2025-07-16 19:48:17,876 - INFO: • Will Company D have the top AI model on July 31?
+2025-07-16 19:48:18,642 - WARNING:   ! no price data
+2025-07-16 19:48:18,642 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-company-d-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:18,642 - INFO: Market 12 / 13
+2025-07-16 19:48:18,642 - INFO: • Will Company E have the top AI model on July 31?
+2025-07-16 19:48:19,383 - WARNING:   ! no price data
+2025-07-16 19:48:19,383 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-company-e-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:19,383 - INFO: Market 13 / 13
+2025-07-16 19:48:19,392 - INFO: • Will Company C have the top AI model on July 31?
+2025-07-16 19:48:20,152 - WARNING:   ! no price data
+2025-07-16 19:48:20,156 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-july\which-company-has-best-ai-model-end-of-july-will-company-c-have-the-top-ai-model-on-july-31-metadata.json
+2025-07-16 19:48:20,156 - INFO: ----- [9 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-07-16 19:48:21,452 - INFO: Market 1 / 12
+2025-07-16 19:48:21,452 - INFO: • Will Google have the top AI model on August 31?
+2025-07-16 19:48:22,832 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-prices.csv (2221 rows)
+2025-07-16 19:48:22,832 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:22,841 - INFO: Market 2 / 12
+2025-07-16 19:48:22,842 - INFO: • Will another company have the top AI model on August 31?
+2025-07-16 19:48:23,562 - WARNING:   ! no price data
+2025-07-16 19:48:23,562 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-another-company-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:23,562 - INFO: Market 3 / 12
+2025-07-16 19:48:23,572 - INFO: • Will DeepSeek have the top AI model on August 31?
+2025-07-16 19:48:24,941 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-deepseek-have-the-top-ai-model-on-august-31-prices.csv (2132 rows)
+2025-07-16 19:48:24,952 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-deepseek-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:24,952 - INFO: Market 4 / 12
+2025-07-16 19:48:24,953 - INFO: • Will Alibaba have the top AI model on August 31?
+2025-07-16 19:48:26,342 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-alibaba-have-the-top-ai-model-on-august-31-prices.csv (2132 rows)
+2025-07-16 19:48:26,342 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-alibaba-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:26,342 - INFO: Market 5 / 12
+2025-07-16 19:48:26,352 - INFO: • Will Company C have the top AI model on August 31?
+2025-07-16 19:48:27,102 - WARNING:   ! no price data
+2025-07-16 19:48:27,102 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-company-c-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:27,102 - INFO: Market 6 / 12
+2025-07-16 19:48:27,111 - INFO: • Will Company D have the top AI model on August 31?
+2025-07-16 19:48:28,962 - WARNING:   ! no price data
+2025-07-16 19:48:28,962 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-company-d-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:28,962 - INFO: Market 7 / 12
+2025-07-16 19:48:28,962 - INFO: • Will Company F have the top AI model on August 31?
+2025-07-16 19:48:29,722 - WARNING:   ! no price data
+2025-07-16 19:48:29,733 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-company-f-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:29,733 - INFO: Market 8 / 12
+2025-07-16 19:48:29,733 - INFO: • Will Company E have the top AI model on August 31?
+2025-07-16 19:48:30,472 - WARNING:   ! no price data
+2025-07-16 19:48:30,472 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-company-e-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:30,481 - INFO: Market 9 / 12
+2025-07-16 19:48:30,482 - INFO: • Will OpenAi have the top AI model on August 31?
+2025-07-16 19:48:31,856 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31-prices.csv (2141 rows)
+2025-07-16 19:48:31,856 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31-metadata.json
+2025-07-16 19:48:31,861 - INFO: Market 10 / 12
+2025-07-16 19:48:31,861 - INFO: • Will xAI have the top AI model on August 31?
+2025-07-16 19:48:33,283 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-xai-have-the-top-ai-model-on-august-31-prices.csv (2140 rows)
+2025-07-16 19:48:33,287 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-xai-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:33,287 - INFO: Market 11 / 12
+2025-07-16 19:48:33,291 - INFO: • Will Meta have the top AI model on August 31?
+2025-07-16 19:48:34,663 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-meta-have-the-top-ai-model-on-august-31-prices.csv (2140 rows)
+2025-07-16 19:48:34,672 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-meta-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:34,672 - INFO: Market 12 / 12
+2025-07-16 19:48:34,672 - INFO: • Will Anthropic have the top AI model on August 31?
+2025-07-16 19:48:36,102 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-anthropic-have-the-top-ai-model-on-august-31-prices.csv (2140 rows)
+2025-07-16 19:48:36,106 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-anthropic-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:48:36,113 - INFO: ----- [10 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-2025
+2025-07-16 19:48:36,513 - INFO: Market 1 / 1
+2025-07-16 19:48:36,513 - INFO: • Will Google have the top AI model on December 31?
+2025-07-16 19:48:37,922 - INFO:   ✓ prices → runs\20250716_194647\which-company-has-best-ai-model-end-of-2025\which-company-has-best-ai-model-end-of-2025-which-company-has-best-ai-model-end-of-2025-prices.csv (4321 rows)
+2025-07-16 19:48:37,931 - INFO:   ✓ metadata → runs\20250716_194647\which-company-has-best-ai-model-end-of-2025\which-company-has-best-ai-model-end-of-2025-which-company-has-best-ai-model-end-of-2025-metadata.json
+2025-07-16 19:48:37,931 - INFO: Batch complete.  Logs → runs\20250716_194647\logs\polymarket.log

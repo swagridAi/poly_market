@@ -1,0 +1,6 @@
+Single market
+
+C:\Users\User\python_code\poly_market>python using_clob_api.py https://polymarket.com/event/which-company-has-best-ai-model-end-of-august --debug
+
+All markets
+C:\Users\User\python_code\poly_market>python using_clob_api.py input.csv

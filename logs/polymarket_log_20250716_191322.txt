@@ -1,0 +1,1650 @@
+2025-07-16 19:13:22,668 - INFO: ================================================================================
+2025-07-16 19:13:22,669 - INFO: Polymarket Price Fetcher Started
+2025-07-16 19:13:22,671 - INFO: URL: https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-07-16 19:13:22,673 - INFO: Debug mode: True
+2025-07-16 19:13:22,674 - INFO: Log file: logs\polymarket_log_20250716_191322.txt
+2025-07-16 19:13:22,675 - INFO: ================================================================================
+2025-07-16 19:13:22,676 - DEBUG: Extracted slug which-company-has-best-ai-model-end-of-august
+2025-07-16 19:13:22,677 - INFO: Processing slug which-company-has-best-ai-model-end-of-august
+2025-07-16 19:13:22,677 - INFO: Searching for binary market with slug: which-company-has-best-ai-model-end-of-august
+2025-07-16 19:13:22,678 - DEBUG: GET https://gamma-api.polymarket.com/markets params={'slug': 'which-company-has-best-ai-model-end-of-august', 'limit': 1}
+2025-07-16 19:13:23,336 - DEBUG: Response: []
+2025-07-16 19:13:23,337 - INFO: Searching for event with slug: which-company-has-best-ai-model-end-of-august
+2025-07-16 19:13:23,338 - DEBUG: GET https://gamma-api.polymarket.com/events params={'slug': 'which-company-has-best-ai-model-end-of-august', 'limit': 1}
+2025-07-16 19:13:24,257 - DEBUG: Response: [
+  {
+    "id": "30367",
+    "ticker": "which-company-has-best-ai-model-end-of-august",
+    "slug": "which-company-has-best-ai-model-end-of-august",
+    "title": "Which company has best AI model end of August?",
+    "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResul...
+2025-07-16 19:13:24,258 - INFO: Found event with 12 markets
+2025-07-16 19:13:24,260 - DEBUG: Processing market entry: {
+  "id": "557954",
+  "question": "Will Google have the top AI model on August 31?",
+  "conditionId": "0xb77636e216631f195c54a7649b428a3ebe64c655421c3212e6001a93548b3a4b",
+  "slug": "will-google-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "9070.1718",
+  "startDate": "2025-06-30T23:30:03.096Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-google-have-the-top-ai-model-on-february-28-MS2LhSAdlHGk.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-google-have-the-top-ai-model-on-february-28-MS2LhSAdlHGk.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.635\", \"0.365\"]",
+  "volume": "24625.455475",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:13.752351Z",
+  "updatedAt": "2025-07-16T09:05:06.749589Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Google",
+  "groupItemThreshold": "4",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c04",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 24625.455475,
+  "liquidityNum": 9070.1718,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 3041.958114,
+  "volume1wk": 16172.741869000003,
+  "volume1mo": 23980.74547500001,
+  "volume1yr": 23980.74547500001,
+  "clobTokenIds": "[\"7208317244107376413052941744149505289038231717682924937889270095719324965159\", \"85258737363731752084699249632169994536598997877611902565030969778961005941927\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 3041.958114,
+  "volume1wkClob": 16172.741869000003,
+  "volume1moClob": 23980.74547500001,
+  "volume1yrClob": 23980.74547500001,
+  "volumeClob": 24625.455475,
+  "liquidityClob": 9070.1718,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xabfe0c42a5a63dc6d2b78f8ab511f6759ecb1c9ca6245c36ad5047ca4804ec13",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:36Z",
+  "cyom": false,
+  "competitive": 0.9821012055292297,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.03,
+  "oneDayPriceChange": 0.03,
+  "oneHourPriceChange": -0.03,
+  "oneWeekPriceChange": 0.155,
+  "lastTradePrice": 0.68,
+  "bestBid": 0.62,
+  "bestAsk": 0.65,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": false,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.430228Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,263 - INFO: Adding GMP market: Will Google have the top AI model on August 31? (ID: 557954)
+2025-07-16 19:13:24,264 - DEBUG: Processing market entry: {
+  "id": "557955",
+  "question": "Will another company have the top AI model on August 31?",
+  "conditionId": "0x32c5c02a3d4e883db4d7cc4954dd93e0a0136079f8d39374393f8429ba2a52b0",
+  "slug": "will-another-company-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:03.607Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "volume": "0",
+  "active": false,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:14.529092Z",
+  "updatedAt": "2025-07-15T18:40:42.221147Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Other",
+  "groupItemThreshold": "11",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c05",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 0,
+  "liquidityNum": 0,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 0,
+  "volume1wk": 0,
+  "volume1mo": 0,
+  "volume1yr": 0,
+  "clobTokenIds": "[\"12507041227391808714042040464771956426592086391362171486340298075986791005128\", \"66227729645754357000217819510622301923495552580169795352890019301414767059894\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrAmm": 0,
+  "volume1wkAmm": 0,
+  "volume1moAmm": 0,
+  "volume1yrAmm": 0,
+  "volume24hrClob": 0,
+  "volume1wkClob": 0,
+  "volume1moClob": 0,
+  "volume1yrClob": 0,
+  "volumeAmm": 0,
+  "volumeClob": 0,
+  "liquidityAmm": 0,
+  "liquidityClob": 0,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x16c720851b525942de19da22763ba8e25d4713d5fe1b0c65a26c6ce94eec292c",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:36Z",
+  "cyom": false,
+  "competitive": 0,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 1,
+  "oneDayPriceChange": 0,
+  "oneHourPriceChange": 0,
+  "oneWeekPriceChange": 0,
+  "oneMonthPriceChange": 0,
+  "oneYearPriceChange": 0,
+  "lastTradePrice": 0,
+  "bestBid": 0,
+  "bestAsk": 1,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": true,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.432815Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,268 - INFO: Adding GMP market: Will another company have the top AI model on August 31? (ID: 557955)
+2025-07-16 19:13:24,273 - DEBUG: Processing market entry: {
+  "id": "557956",
+  "question": "Will DeepSeek have the top AI model on August 31?",
+  "conditionId": "0xf48b650ecdb42e884996a7973c648f26fc25c97f6c1fc44f2010eec84e3519b6",
+  "slug": "will-deepseek-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "6903.22392",
+  "startDate": "2025-06-30T23:30:03.352Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-deepseek-have-the-top-ai-model-on-march-31-puDB2eDJx4-L.png",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-deepseek-have-the-top-ai-model-on-march-31-puDB2eDJx4-L.png",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.013\", \"0.987\"]",
+  "volume": "12769.170828",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:15.324102Z",
+  "updatedAt": "2025-07-16T09:05:15.308668Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "DeepSeek",
+  "groupItemThreshold": "5",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c06",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.001,
+  "orderMinSize": 5,
+  "volumeNum": 12769.170828,
+  "liquidityNum": 6903.22392,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 2971.3435389999995,
+  "volume1wk": 6338.219263999998,
+  "volume1mo": 12124.460828000003,
+  "volume1yr": 12124.460828000003,
+  "clobTokenIds": "[\"56837939363110943784619010768781375033464696154785037575633097016628750148196\", \"86413034264604233181608112991050654438437976562335168708828768382379989587300\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 2971.3435389999995,
+  "volume1wkClob": 6338.219263999998,
+  "volume1moClob": 12124.460828000003,
+  "volume1yrClob": 12124.460828000003,
+  "volumeClob": 12769.170828,
+  "liquidityClob": 6903.22392,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x4128e0fb443dc143f0320e29e64d3bc3de1af51d1d5c533cb1dcb72f81b92129",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:38Z",
+  "cyom": false,
+  "competitive": 0.8082970071186717,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.006,
+  "oneDayPriceChange": -0.0015,
+  "oneHourPriceChange": -0.002,
+  "oneWeekPriceChange": -0.0095,
+  "lastTradePrice": 0.024,
+  "bestBid": 0.01,
+  "bestAsk": 0.016,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.43614Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,275 - INFO: Adding GMP market: Will DeepSeek have the top AI model on August 31? (ID: 557956)
+2025-07-16 19:13:24,276 - DEBUG: Processing market entry: {
+  "id": "557957",
+  "question": "Will Alibaba have the top AI model on August 31?",
+  "conditionId": "0x2b81f7706dd8915d92111f687ad7f102dd8a55561e94dcc92247b53d5ef67d3c",
+  "slug": "will-alibaba-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "5174.96458",
+  "startDate": "2025-06-30T23:30:03.863Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-alibaba-have-the-top-ai-model-on-march-31-jSpk4aBgTVpy.png",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-alibaba-have-the-top-ai-model-on-march-31-jSpk4aBgTVpy.png",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.005\", \"0.995\"]",
+  "volume": "13175.953508",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:16.109226Z",
+  "updatedAt": "2025-07-16T09:12:47.663992Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Alibaba",
+  "groupItemThreshold": "6",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c07",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.001,
+  "orderMinSize": 5,
+  "volumeNum": 13175.953508,
+  "liquidityNum": 5174.96458,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 2422.3929979999994,
+  "volume1wk": 6680.6106,
+  "volume1mo": 12531.243508000003,
+  "volume1yr": 12531.243508000003,
+  "clobTokenIds": "[\"113742096431256403474445669852899930921743002927479581817211946396634859288258\", \"92317744641204596560381595727843562140332612785246441100803341265399687678224\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 2422.3929979999994,
+  "volume1wkClob": 6680.6106,
+  "volume1moClob": 12531.243508000003,
+  "volume1yrClob": 12531.243508000003,
+  "volumeClob": 13175.953508,
+  "liquidityClob": 5174.96458,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xa0b564a6f6efa5793dff8a6c256b798ff7945ec3b0a931e1df4f740776a1f22a",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:38Z",
+  "cyom": false,
+  "competitive": 0.8031967229573703,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.004,
+  "oneDayPriceChange": -0.0025,
+  "oneHourPriceChange": -0.0005,
+  "oneWeekPriceChange": -0.002,
+  "lastTradePrice": 0.005,
+  "bestBid": 0.003,
+  "bestAsk": 0.007,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.437924Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,277 - INFO: Adding GMP market: Will Alibaba have the top AI model on August 31? (ID: 557957)
+2025-07-16 19:13:24,278 - DEBUG: Processing market entry: {
+  "id": "557958",
+  "question": "Will Company C have the top AI model on August 31?",
+  "conditionId": "0x17432a04e176d88562559df4101716ef835024a8c31680c45ac663a48c1a6fcd",
+  "slug": "will-company-c-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.217Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "volume": "0",
+  "active": false,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:16.889316Z",
+  "updatedAt": "2025-07-15T18:40:40.87783Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Company C",
+  "groupItemThreshold": "7",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c08",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 0,
+  "liquidityNum": 0,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 0,
+  "volume1wk": 0,
+  "volume1mo": 0,
+  "volume1yr": 0,
+  "clobTokenIds": "[\"43419592195388567242638704136140784722912631467991168454623175009235317962789\", \"106146526739773959553686500817262753475984563244361781508659914804476044018114\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrAmm": 0,
+  "volume1wkAmm": 0,
+  "volume1moAmm": 0,
+  "volume1yrAmm": 0,
+  "volume24hrClob": 0,
+  "volume1wkClob": 0,
+  "volume1moClob": 0,
+  "volume1yrClob": 0,
+  "volumeAmm": 0,
+  "volumeClob": 0,
+  "liquidityAmm": 0,
+  "liquidityClob": 0,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xca33f945d969de7a2090ab1b2baf3f8b02391e8d164f04eec92b74bab018a64b",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:40Z",
+  "cyom": false,
+  "competitive": 0,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 1,
+  "oneDayPriceChange": 0,
+  "oneHourPriceChange": 0,
+  "oneWeekPriceChange": 0,
+  "oneMonthPriceChange": 0,
+  "oneYearPriceChange": 0,
+  "lastTradePrice": 0,
+  "bestBid": 0,
+  "bestAsk": 1,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.440454Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,279 - INFO: Adding GMP market: Will Company C have the top AI model on August 31? (ID: 557958)
+2025-07-16 19:13:24,280 - DEBUG: Processing market entry: {
+  "id": "557959",
+  "question": "Will Company D have the top AI model on August 31?",
+  "conditionId": "0x4fa4d998f41d32509b3ef520409e48aeb23d59b5891dad89e8ed1d9d0108ac48",
+  "slug": "will-company-d-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:06.26Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "volume": "0",
+  "active": false,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:17.791663Z",
+  "updatedAt": "2025-07-15T18:40:41.233318Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Company D",
+  "groupItemThreshold": "8",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c09",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 0,
+  "liquidityNum": 0,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 0,
+  "volume1wk": 0,
+  "volume1mo": 0,
+  "volume1yr": 0,
+  "clobTokenIds": "[\"8641147148579979726774109755199873772639582257972834239001977276159153574112\", \"92485578426763401973218991810056698469309529342486714785673182207034993054038\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrAmm": 0,
+  "volume1wkAmm": 0,
+  "volume1moAmm": 0,
+  "volume1yrAmm": 0,
+  "volume24hrClob": 0,
+  "volume1wkClob": 0,
+  "volume1moClob": 0,
+  "volume1yrClob": 0,
+  "volumeAmm": 0,
+  "volumeClob": 0,
+  "liquidityAmm": 0,
+  "liquidityClob": 0,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xac3eb148b8eace871f3ad5aa65f65e122961b7096a34fa1cf222079b2c2157ae",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:40Z",
+  "cyom": false,
+  "competitive": 0,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 1,
+  "oneDayPriceChange": 0,
+  "oneHourPriceChange": 0,
+  "oneWeekPriceChange": 0,
+  "oneMonthPriceChange": 0,
+  "oneYearPriceChange": 0,
+  "lastTradePrice": 0,
+  "bestBid": 0,
+  "bestAsk": 1,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.443631Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,281 - INFO: Adding GMP market: Will Company D have the top AI model on August 31? (ID: 557959)
+2025-07-16 19:13:24,282 - DEBUG: Processing market entry: {
+  "id": "557961",
+  "question": "Will Company F have the top AI model on August 31?",
+  "conditionId": "0x00b8d95ac3ad24c93c015364d6a94781ff30861f2413038e66b03c4137e3167c",
+  "slug": "will-company-f-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.729Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "volume": "0",
+  "active": false,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:19.41233Z",
+  "updatedAt": "2025-07-15T18:40:41.912111Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Company F",
+  "groupItemThreshold": "10",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c0b",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 0,
+  "liquidityNum": 0,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 0,
+  "volume1wk": 0,
+  "volume1mo": 0,
+  "volume1yr": 0,
+  "clobTokenIds": "[\"17157402411575391720821603484611232154327171585281683602393967770280099011354\", \"62502960990158860566715294264483120843128090180983354998736396630130187588667\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrAmm": 0,
+  "volume1wkAmm": 0,
+  "volume1moAmm": 0,
+  "volume1yrAmm": 0,
+  "volume24hrClob": 0,
+  "volume1wkClob": 0,
+  "volume1moClob": 0,
+  "volume1yrClob": 0,
+  "volumeAmm": 0,
+  "volumeClob": 0,
+  "liquidityAmm": 0,
+  "liquidityClob": 0,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x34ec1866a69e71d4213312a6835f5b8d0196468fd31265ce0756a62b942c4344",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:42Z",
+  "cyom": false,
+  "competitive": 0,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 1,
+  "oneDayPriceChange": 0,
+  "oneHourPriceChange": 0,
+  "oneWeekPriceChange": 0,
+  "oneMonthPriceChange": 0,
+  "oneYearPriceChange": 0,
+  "lastTradePrice": 0,
+  "bestBid": 0,
+  "bestAsk": 1,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.448418Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,289 - INFO: Adding GMP market: Will Company F have the top AI model on August 31? (ID: 557961)
+2025-07-16 19:13:24,290 - DEBUG: Processing market entry: {
+  "id": "557960",
+  "question": "Will Company E have the top AI model on August 31?",
+  "conditionId": "0x40cd735758443460ce70dd925494d0a087a915d524acecc4856eeab264fa2bd3",
+  "slug": "will-company-e-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.473Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "volume": "0",
+  "active": false,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:18.611812Z",
+  "updatedAt": "2025-07-15T18:40:41.579074Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Company E",
+  "groupItemThreshold": "9",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c0a",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 0,
+  "liquidityNum": 0,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 0,
+  "volume1wk": 0,
+  "volume1mo": 0,
+  "volume1yr": 0,
+  "clobTokenIds": "[\"87947097727432784346229878666213384031415826886142591147868383711302228519038\", \"37456057312111924699905346363307555600875558577513075667888055524163800405050\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrAmm": 0,
+  "volume1wkAmm": 0,
+  "volume1moAmm": 0,
+  "volume1yrAmm": 0,
+  "volume24hrClob": 0,
+  "volume1wkClob": 0,
+  "volume1moClob": 0,
+  "volume1yrClob": 0,
+  "volumeAmm": 0,
+  "volumeClob": 0,
+  "liquidityAmm": 0,
+  "liquidityClob": 0,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x602477623f814135dd8309df67ff3a575f01fe07d35308564942aa3e96d52f87",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:42Z",
+  "cyom": false,
+  "competitive": 0,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 1,
+  "oneDayPriceChange": 0,
+  "oneHourPriceChange": 0,
+  "oneWeekPriceChange": 0,
+  "oneMonthPriceChange": 0,
+  "oneYearPriceChange": 0,
+  "lastTradePrice": 0,
+  "bestBid": 0,
+  "bestAsk": 1,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": true,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.445596Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,292 - INFO: Adding GMP market: Will Company E have the top AI model on August 31? (ID: 557960)
+2025-07-16 19:13:24,294 - DEBUG: Processing market entry: {
+  "id": "557950",
+  "question": "Will OpenAi have the top AI model on August 31?",
+  "conditionId": "0xc0f3faeb3ac410b2b63739c39282a008263f2015cc909365ce6a788f3f5bfa48",
+  "slug": "will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "8015.6428",
+  "startDate": "2025-06-30T23:29:57.31Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-have-the-top-ai-model-on-february-28-3eaAmSON076D.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-have-the-top-ai-model-on-february-28-3eaAmSON076D.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.245\", \"0.755\"]",
+  "volume": "18929.178673",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:10.523607Z",
+  "updatedAt": "2025-07-16T09:05:26.381294Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "OpenAI",
+  "groupItemThreshold": "0",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 18929.178673,
+  "liquidityNum": 8015.6428,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 2990.413191,
+  "volume1wk": 11462.627641,
+  "volume1mo": 18120.375073000003,
+  "volume1yr": 18120.375073000003,
+  "clobTokenIds": "[\"90244205516087962287408235078870821434449941456585435529879302055349521295735\", \"16121441783762855425001794109619895126497134877283131104679212242294279182229\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 2990.413191,
+  "volume1wkClob": 11462.627641,
+  "volume1moClob": 18120.375073000003,
+  "volume1yrClob": 18120.375073000003,
+  "volumeClob": 18929.178673,
+  "liquidityClob": 8015.6428,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x3f834fdee4ed190618d5df3e49b71714e80fa65064486a56cb0e4965ac856ef7",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:30Z",
+  "cyom": false,
+  "competitive": 0.938945095185559,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.03,
+  "oneDayPriceChange": 0.04,
+  "oneHourPriceChange": 0.04,
+  "oneWeekPriceChange": -0.06,
+  "lastTradePrice": 0.25,
+  "bestBid": 0.23,
+  "bestAsk": 0.26,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": false,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.418152Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,295 - INFO: Adding GMP market: Will OpenAi have the top AI model on August 31? (ID: 557950)
+2025-07-16 19:13:24,295 - DEBUG: Processing market entry: {
+  "id": "557951",
+  "question": "Will xAI have the top AI model on August 31?",
+  "conditionId": "0xeac4ec22f9ca445759238d91d12299b57c1256b32f4a563bfde36dbc1b5fddb2",
+  "slug": "will-xai-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "7292.9555",
+  "startDate": "2025-06-30T23:29:58.805Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-xai-have-the-top-ai-model-on-february-28-u3iUE4o3SB1s.jpg",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-xai-have-the-top-ai-model-on-february-28-u3iUE4o3SB1s.jpg",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.11\", \"0.89\"]",
+  "volume": "27278.830266",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:11.345733Z",
+  "updatedAt": "2025-07-16T09:08:17.3878Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "xAI",
+  "groupItemThreshold": "1",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c01",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.01,
+  "orderMinSize": 5,
+  "volumeNum": 27278.830266,
+  "liquidityNum": 7292.9555,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 9268.719646,
+  "volume1wk": 18144.638320000002,
+  "volume1mo": 25976.210266000006,
+  "volume1yr": 25976.210266000006,
+  "clobTokenIds": "[\"53080427834809019643826932297048655802548158407487133488022511124685894550220\", \"47337866143642870964608208580300916839717116714294468734808285495607186882826\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 9268.719646,
+  "volume1wkClob": 18144.638320000002,
+  "volume1moClob": 25976.210266000006,
+  "volume1yrClob": 25976.210266000006,
+  "volumeClob": 27278.830266,
+  "liquidityClob": 7292.9555,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0x9d4db669eaf5cd84ed90a72695738a16020caeaefba2cc55d0024b019f705c84",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:30Z",
+  "cyom": false,
+  "competitive": 0.8679802100512108,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.02,
+  "oneDayPriceChange": -0.04,
+  "oneWeekPriceChange": -0.09,
+  "lastTradePrice": 0.11,
+  "bestBid": 0.1,
+  "bestAsk": 0.12,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": false,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.422174Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,296 - INFO: Adding GMP market: Will xAI have the top AI model on August 31? (ID: 557951)
+2025-07-16 19:13:24,297 - DEBUG: Processing market entry: {
+  "id": "557952",
+  "question": "Will Meta have the top AI model on August 31?",
+  "conditionId": "0x676e2d502ea0351e51c67ab93f1245c15c79981ef2eb6e92feed9d7403608749",
+  "slug": "will-meta-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "7986.86121",
+  "startDate": "2025-06-30T23:29:58.552Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-meta-have-the-top-ai-model-on-february-28-eQrfClr-SzAR.png",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-meta-have-the-top-ai-model-on-february-28-eQrfClr-SzAR.png",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.01\", \"0.99\"]",
+  "volume": "13625.320954",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:12.110121Z",
+  "updatedAt": "2025-07-16T09:08:51.661402Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Meta",
+  "groupItemThreshold": "2",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c02",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.001,
+  "orderMinSize": 5,
+  "volumeNum": 13625.320954,
+  "liquidityNum": 7986.86121,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 2499.4181499999986,
+  "volume1wk": 6349.114507,
+  "volume1mo": 12592.110954,
+  "volume1yr": 12592.110954,
+  "clobTokenIds": "[\"1257641297462665188086688956118558849674895867673897338710254134565505283456\", \"81518283029033533264146372688146911859390008656004414004114716139771360994291\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 2499.4181499999986,
+  "volume1wkClob": 6349.114507,
+  "volume1moClob": 12592.110954,
+  "volume1yrClob": 12592.110954,
+  "volumeClob": 13625.320954,
+  "liquidityClob": 7986.86121,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xa84fb6547897ad3139e9be1e7770adde0cf3dbfbd7087379ffb2b657cba194eb",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:34Z",
+  "cyom": false,
+  "competitive": 0.8063865817272801,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.012,
+  "oneDayPriceChange": -0.008,
+  "oneWeekPriceChange": -0.0205,
+  "lastTradePrice": 0.008,
+  "bestBid": 0.004,
+  "bestAsk": 0.016,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": false,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.42484Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,303 - INFO: Adding GMP market: Will Meta have the top AI model on August 31? (ID: 557952)
+2025-07-16 19:13:24,304 - DEBUG: Processing market entry: {
+  "id": "557953",
+  "question": "Will Anthropic have the top AI model on August 31?",
+  "conditionId": "0x3dd78dce2542e8299325f67f79887011d14e5cfa5af14f71d1817877fb781f87",
+  "slug": "will-anthropic-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "3835.09035",
+  "startDate": "2025-06-30T23:30:02.172Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-anthropic-have-the-top-ai-model-on-february-28-2aPXb3voV_7Y.png",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-anthropic-have-the-top-ai-model-on-february-28-2aPXb3voV_7Y.png",
+  "description": "This market will resolve according to the company which owns the model which has the highest arena score based off the Chatbot Arena LLM Leaderboard (https://lmarena.ai/) when the table under the \"Leaderboard\" tab is checked on August 31, 2025, 12:00 PM ET.\n\nResults from the \"Arena Score\" section on the Leaderboard tab of https://lmarena.ai/leaderboard/text with the style control off will be used to resolve this market.\n\nIf two models are tied for the top arena score at this market's check time, resolution will be based on whichever company's name, as it is described in this market group, comes first in alphabetical order (e.g. if both were tied, \"Google\" would resolve to \"Yes\", and \"xAI\" would resolve to \"No\")\n\nThe resolution source for this market is the Chatbot Arena LLM Leaderboard found at https://lmarena.ai/. If this resolution source is unavailable at check time, this market will remain open until the leaderboard comes back online and resolve based on the first check after it becomes available. If it becomes permanently unavailable, this market will resolve based on another resolution source.",
+  "outcomes": "[\"Yes\", \"No\"]",
+  "outcomePrices": "[\"0.0225\", \"0.9775\"]",
+  "volume": "13620.43529",
+  "active": true,
+  "closed": false,
+  "marketMakerAddress": "",
+  "createdAt": "2025-06-30T18:06:12.975074Z",
+  "updatedAt": "2025-07-16T09:08:52.314074Z",
+  "new": false,
+  "featured": false,
+  "submitted_by": "0x91430CaD2d3975766499717fA0D66A78D814E5c5",
+  "archived": false,
+  "resolvedBy": "0x2F5e3684cb1F318ec51b00Edba38d79Ac2c0aA9d",
+  "restricted": true,
+  "groupItemTitle": "Anthropic",
+  "groupItemThreshold": "3",
+  "questionID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c03",
+  "enableOrderBook": true,
+  "orderPriceMinTickSize": 0.001,
+  "orderMinSize": 5,
+  "volumeNum": 13620.43529,
+  "liquidityNum": 3835.09035,
+  "endDateIso": "2025-07-31",
+  "startDateIso": "2025-06-30",
+  "hasReviewedDates": true,
+  "volume24hr": 2669.223004,
+  "volume1wk": 8488.280686,
+  "volume1mo": 12945.72529,
+  "volume1yr": 12945.72529,
+  "clobTokenIds": "[\"9687061850870040773525935629590665292329969860784629341205799741802221897226\", \"61730712435134795083320926220051377696517028340091865039783328916459042134134\"]",
+  "umaBond": "500",
+  "umaReward": "5",
+  "volume24hrClob": 2669.223004,
+  "volume1wkClob": 8488.280686,
+  "volume1moClob": 12945.72529,
+  "volume1yrClob": 12945.72529,
+  "volumeClob": 13620.43529,
+  "liquidityClob": 3835.09035,
+  "customLiveness": 0,
+  "acceptingOrders": true,
+  "negRisk": true,
+  "negRiskMarketID": "0x07a6d1e91364e2625ad1f12fe8360e2cb3dcc995cddc7f277e6622cd804e5c00",
+  "negRiskRequestID": "0xe703f6b379e09c6c45fa591185beda830a3333adb686846a293f2d8e4fb11d0b",
+  "ready": false,
+  "funded": false,
+  "acceptingOrdersTimestamp": "2025-06-30T23:29:36Z",
+  "cyom": false,
+  "competitive": 0.8143281029717886,
+  "pagerDutyNotificationEnabled": false,
+  "approved": true,
+  "rewardsMinSize": 0,
+  "rewardsMaxSpread": 0,
+  "spread": 0.013,
+  "oneDayPriceChange": -0.0175,
+  "oneHourPriceChange": -0.002,
+  "oneWeekPriceChange": -0.001,
+  "lastTradePrice": 0.016,
+  "bestBid": 0.016,
+  "bestAsk": 0.029,
+  "automaticallyActive": true,
+  "clearBookOnStart": true,
+  "seriesColor": "",
+  "showGmpSeries": false,
+  "showGmpOutcome": false,
+  "manualActivation": false,
+  "negRiskOther": false,
+  "umaResolutionStatuses": "[]",
+  "pendingDeployment": false,
+  "deploying": false,
+  "deployingTimestamp": "2025-06-30T23:23:30.427121Z",
+  "rfqEnabled": false
+}
+2025-07-16 19:13:24,305 - INFO: Adding GMP market: Will Anthropic have the top AI model on August 31? (ID: 557953)
+2025-07-16 19:13:24,306 - INFO: Found 12 sub-markets
+2025-07-16 19:13:24,306 - INFO: Processing market 1/12
+2025-07-16 19:13:24,308 - INFO: Building CSV for GMP market: Will Google have the top AI model on August 31?
+2025-07-16 19:13:24,308 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557954', 'resolution': 60}
+2025-07-16 19:13:24,309 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557954', 'resolution': 60}
+2025-07-16 19:13:24,673 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:24,673 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557954&resolution=60
+2025-07-16 19:13:24,676 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557954'}
+2025-07-16 19:13:24,678 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557954'}
+2025-07-16 19:13:25,044 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:25,044 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557954
+2025-07-16 19:13:25,044 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557954', 'resolution': 60}
+2025-07-16 19:13:25,044 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557954', 'resolution': 60}
+2025-07-16 19:13:25,499 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:25,500 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557954&resolution=60
+2025-07-16 19:13:25,503 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557954', 'resolution': 60}
+2025-07-16 19:13:25,504 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557954', 'resolution': 60}
+2025-07-16 19:13:25,882 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:25,882 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557954&resolution=60
+2025-07-16 19:13:25,884 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557954'}
+2025-07-16 19:13:25,887 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557954'}
+2025-07-16 19:13:26,505 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:26,506 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557954
+2025-07-16 19:13:26,506 - DEBUG: Attempting GMP fetch: /markets/557954/history with params {}
+2025-07-16 19:13:26,506 - DEBUG: GET https://gamma-api.polymarket.com/markets/557954/history params={}
+2025-07-16 19:13:26,867 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:26,868 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557954/history
+2025-07-16 19:13:26,873 - WARNING: Could not fetch historical prices for GMP market 557954
+2025-07-16 19:13:26,874 - DEBUG: GET https://gamma-api.polymarket.com/markets/557954 params={}
+2025-07-16 19:13:27,244 - DEBUG: Response: {
+  "id": "557954",
+  "question": "Will Google have the top AI model on August 31?",
+  "conditionId": "0xb77636e216631f195c54a7649b428a3ebe64c655421c3212e6001a93548b3a4b",
+  "slug": "will-google-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "9070.1718",
+  "startDate": "2025-06-30T23:30:03.096Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-google-have-the-top-ai-model-on-february-28-MS2LhSAdlHGk.jpg",
+ ...
+2025-07-16 19:13:27,246 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:27,266 - WARNING: No data available for GMP market will-google-have-the-top-ai-model-on-august-31 (ID: 557954)
+2025-07-16 19:13:27,269 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:27,269 - INFO: Processing market 2/12
+2025-07-16 19:13:27,271 - INFO: Building CSV for GMP market: Will another company have the top AI model on August 31?
+2025-07-16 19:13:27,271 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557955', 'resolution': 60}
+2025-07-16 19:13:27,272 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557955', 'resolution': 60}
+2025-07-16 19:13:27,643 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:27,643 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557955&resolution=60
+2025-07-16 19:13:27,646 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557955'}
+2025-07-16 19:13:27,648 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557955'}
+2025-07-16 19:13:28,068 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:28,069 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557955
+2025-07-16 19:13:28,072 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557955', 'resolution': 60}
+2025-07-16 19:13:28,073 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557955', 'resolution': 60}
+2025-07-16 19:13:28,695 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:28,696 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557955&resolution=60
+2025-07-16 19:13:28,698 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557955', 'resolution': 60}
+2025-07-16 19:13:28,701 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557955', 'resolution': 60}
+2025-07-16 19:13:29,058 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:29,059 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557955&resolution=60
+2025-07-16 19:13:29,060 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557955'}
+2025-07-16 19:13:29,061 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557955'}
+2025-07-16 19:13:29,432 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:29,433 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557955
+2025-07-16 19:13:29,437 - DEBUG: Attempting GMP fetch: /markets/557955/history with params {}
+2025-07-16 19:13:29,438 - DEBUG: GET https://gamma-api.polymarket.com/markets/557955/history params={}
+2025-07-16 19:13:29,803 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:29,803 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557955/history
+2025-07-16 19:13:29,806 - WARNING: Could not fetch historical prices for GMP market 557955
+2025-07-16 19:13:29,807 - DEBUG: GET https://gamma-api.polymarket.com/markets/557955 params={}
+2025-07-16 19:13:30,165 - DEBUG: Response: {
+  "id": "557955",
+  "question": "Will another company have the top AI model on August 31?",
+  "conditionId": "0x32c5c02a3d4e883db4d7cc4954dd93e0a0136079f8d39374393f8429ba2a52b0",
+  "slug": "will-another-company-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:03.607Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj...
+2025-07-16 19:13:30,166 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:30,172 - WARNING: No data available for GMP market will-another-company-have-the-top-ai-model-on-august-31 (ID: 557955)
+2025-07-16 19:13:30,174 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-another-company-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:30,174 - INFO: Processing market 3/12
+2025-07-16 19:13:30,175 - INFO: Building CSV for GMP market: Will DeepSeek have the top AI model on August 31?
+2025-07-16 19:13:30,176 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557956', 'resolution': 60}
+2025-07-16 19:13:30,177 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557956', 'resolution': 60}
+2025-07-16 19:13:30,816 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:30,816 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557956&resolution=60
+2025-07-16 19:13:30,818 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557956'}
+2025-07-16 19:13:30,819 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557956'}
+2025-07-16 19:13:31,173 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:31,173 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557956
+2025-07-16 19:13:31,176 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557956', 'resolution': 60}
+2025-07-16 19:13:31,177 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557956', 'resolution': 60}
+2025-07-16 19:13:31,535 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:31,536 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557956&resolution=60
+2025-07-16 19:13:31,539 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557956', 'resolution': 60}
+2025-07-16 19:13:31,539 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557956', 'resolution': 60}
+2025-07-16 19:13:31,888 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:31,889 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557956&resolution=60
+2025-07-16 19:13:31,891 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557956'}
+2025-07-16 19:13:31,893 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557956'}
+2025-07-16 19:13:32,227 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:32,228 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557956
+2025-07-16 19:13:32,230 - DEBUG: Attempting GMP fetch: /markets/557956/history with params {}
+2025-07-16 19:13:32,231 - DEBUG: GET https://gamma-api.polymarket.com/markets/557956/history params={}
+2025-07-16 19:13:32,583 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:32,583 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557956/history
+2025-07-16 19:13:32,586 - WARNING: Could not fetch historical prices for GMP market 557956
+2025-07-16 19:13:32,587 - DEBUG: GET https://gamma-api.polymarket.com/markets/557956 params={}
+2025-07-16 19:13:32,945 - DEBUG: Response: {
+  "id": "557956",
+  "question": "Will DeepSeek have the top AI model on August 31?",
+  "conditionId": "0xf48b650ecdb42e884996a7973c648f26fc25c97f6c1fc44f2010eec84e3519b6",
+  "slug": "will-deepseek-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "6903.22392",
+  "startDate": "2025-06-30T23:30:03.352Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-deepseek-have-the-top-ai-model-on-march-31-puDB2eDJx4-L.png...
+2025-07-16 19:13:32,946 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:32,949 - WARNING: No data available for GMP market will-deepseek-have-the-top-ai-model-on-august-31 (ID: 557956)
+2025-07-16 19:13:32,953 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-deepseek-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:32,953 - INFO: Processing market 4/12
+2025-07-16 19:13:32,954 - INFO: Building CSV for GMP market: Will Alibaba have the top AI model on August 31?
+2025-07-16 19:13:32,955 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557957', 'resolution': 60}
+2025-07-16 19:13:32,956 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557957', 'resolution': 60}
+2025-07-16 19:13:33,289 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:33,289 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557957&resolution=60
+2025-07-16 19:13:33,296 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557957'}
+2025-07-16 19:13:33,298 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557957'}
+2025-07-16 19:13:33,955 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:33,955 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557957
+2025-07-16 19:13:33,958 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557957', 'resolution': 60}
+2025-07-16 19:13:33,961 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557957', 'resolution': 60}
+2025-07-16 19:13:34,364 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:34,364 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557957&resolution=60
+2025-07-16 19:13:34,366 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557957', 'resolution': 60}
+2025-07-16 19:13:34,370 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557957', 'resolution': 60}
+2025-07-16 19:13:34,706 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:34,707 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557957&resolution=60
+2025-07-16 19:13:34,709 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557957'}
+2025-07-16 19:13:34,712 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557957'}
+2025-07-16 19:13:35,063 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:35,064 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557957
+2025-07-16 19:13:35,066 - DEBUG: Attempting GMP fetch: /markets/557957/history with params {}
+2025-07-16 19:13:35,070 - DEBUG: GET https://gamma-api.polymarket.com/markets/557957/history params={}
+2025-07-16 19:13:35,430 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:35,431 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557957/history
+2025-07-16 19:13:35,433 - WARNING: Could not fetch historical prices for GMP market 557957
+2025-07-16 19:13:35,436 - DEBUG: GET https://gamma-api.polymarket.com/markets/557957 params={}
+2025-07-16 19:13:35,776 - DEBUG: Response: {
+  "id": "557957",
+  "question": "Will Alibaba have the top AI model on August 31?",
+  "conditionId": "0x2b81f7706dd8915d92111f687ad7f102dd8a55561e94dcc92247b53d5ef67d3c",
+  "slug": "will-alibaba-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "5174.96458",
+  "startDate": "2025-06-30T23:30:03.863Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-alibaba-have-the-top-ai-model-on-march-31-jSpk4aBgTVpy.png",
+...
+2025-07-16 19:13:35,777 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:35,780 - WARNING: No data available for GMP market will-alibaba-have-the-top-ai-model-on-august-31 (ID: 557957)
+2025-07-16 19:13:35,783 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-alibaba-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:35,784 - INFO: Processing market 5/12
+2025-07-16 19:13:35,785 - INFO: Building CSV for GMP market: Will Company C have the top AI model on August 31?
+2025-07-16 19:13:35,785 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557958', 'resolution': 60}
+2025-07-16 19:13:35,787 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557958', 'resolution': 60}
+2025-07-16 19:13:36,130 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:36,131 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557958&resolution=60
+2025-07-16 19:13:36,133 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557958'}
+2025-07-16 19:13:36,134 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557958'}
+2025-07-16 19:13:36,469 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:36,470 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557958
+2025-07-16 19:13:36,471 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557958', 'resolution': 60}
+2025-07-16 19:13:36,472 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557958', 'resolution': 60}
+2025-07-16 19:13:36,821 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:36,822 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557958&resolution=60
+2025-07-16 19:13:36,825 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557958', 'resolution': 60}
+2025-07-16 19:13:36,829 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557958', 'resolution': 60}
+2025-07-16 19:13:37,175 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:37,176 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557958&resolution=60
+2025-07-16 19:13:37,178 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557958'}
+2025-07-16 19:13:37,181 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557958'}
+2025-07-16 19:13:37,573 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:37,573 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557958
+2025-07-16 19:13:37,575 - DEBUG: Attempting GMP fetch: /markets/557958/history with params {}
+2025-07-16 19:13:37,579 - DEBUG: GET https://gamma-api.polymarket.com/markets/557958/history params={}
+2025-07-16 19:13:38,052 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:38,053 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557958/history
+2025-07-16 19:13:38,055 - WARNING: Could not fetch historical prices for GMP market 557958
+2025-07-16 19:13:38,056 - DEBUG: GET https://gamma-api.polymarket.com/markets/557958 params={}
+2025-07-16 19:13:38,408 - DEBUG: Response: {
+  "id": "557958",
+  "question": "Will Company C have the top AI model on August 31?",
+  "conditionId": "0x17432a04e176d88562559df4101716ef835024a8c31680c45ac663a48c1a6fcd",
+  "slug": "will-company-c-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.217Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "ic...
+2025-07-16 19:13:38,410 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:38,414 - WARNING: No data available for GMP market will-company-c-have-the-top-ai-model-on-august-31 (ID: 557958)
+2025-07-16 19:13:38,416 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-company-c-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:38,416 - INFO: Processing market 6/12
+2025-07-16 19:13:38,416 - INFO: Building CSV for GMP market: Will Company D have the top AI model on August 31?
+2025-07-16 19:13:38,417 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557959', 'resolution': 60}
+2025-07-16 19:13:38,418 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557959', 'resolution': 60}
+2025-07-16 19:13:38,762 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:38,763 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557959&resolution=60
+2025-07-16 19:13:38,765 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557959'}
+2025-07-16 19:13:38,769 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557959'}
+2025-07-16 19:13:39,113 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:39,113 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557959
+2025-07-16 19:13:39,116 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557959', 'resolution': 60}
+2025-07-16 19:13:39,120 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557959', 'resolution': 60}
+2025-07-16 19:13:39,534 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:39,534 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557959&resolution=60
+2025-07-16 19:13:39,537 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557959', 'resolution': 60}
+2025-07-16 19:13:39,540 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557959', 'resolution': 60}
+2025-07-16 19:13:39,900 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:39,900 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557959&resolution=60
+2025-07-16 19:13:39,905 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557959'}
+2025-07-16 19:13:39,907 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557959'}
+2025-07-16 19:13:40,387 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:40,388 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557959
+2025-07-16 19:13:40,390 - DEBUG: Attempting GMP fetch: /markets/557959/history with params {}
+2025-07-16 19:13:40,390 - DEBUG: GET https://gamma-api.polymarket.com/markets/557959/history params={}
+2025-07-16 19:13:40,798 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:40,798 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557959/history
+2025-07-16 19:13:40,800 - WARNING: Could not fetch historical prices for GMP market 557959
+2025-07-16 19:13:40,804 - DEBUG: GET https://gamma-api.polymarket.com/markets/557959 params={}
+2025-07-16 19:13:41,171 - DEBUG: Response: {
+  "id": "557959",
+  "question": "Will Company D have the top AI model on August 31?",
+  "conditionId": "0x4fa4d998f41d32509b3ef520409e48aeb23d59b5891dad89e8ed1d9d0108ac48",
+  "slug": "will-company-d-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:06.26Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "ico...
+2025-07-16 19:13:41,172 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:41,175 - WARNING: No data available for GMP market will-company-d-have-the-top-ai-model-on-august-31 (ID: 557959)
+2025-07-16 19:13:41,179 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-company-d-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:41,180 - INFO: Processing market 7/12
+2025-07-16 19:13:41,180 - INFO: Building CSV for GMP market: Will Company F have the top AI model on August 31?
+2025-07-16 19:13:41,181 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557961', 'resolution': 60}
+2025-07-16 19:13:41,182 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557961', 'resolution': 60}
+2025-07-16 19:13:41,531 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:41,532 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557961&resolution=60
+2025-07-16 19:13:41,534 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557961'}
+2025-07-16 19:13:41,537 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557961'}
+2025-07-16 19:13:42,323 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:42,323 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557961
+2025-07-16 19:13:42,324 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557961', 'resolution': 60}
+2025-07-16 19:13:42,328 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557961', 'resolution': 60}
+2025-07-16 19:13:42,666 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:42,666 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557961&resolution=60
+2025-07-16 19:13:42,668 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557961', 'resolution': 60}
+2025-07-16 19:13:42,672 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557961', 'resolution': 60}
+2025-07-16 19:13:43,030 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:43,031 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557961&resolution=60
+2025-07-16 19:13:43,033 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557961'}
+2025-07-16 19:13:43,036 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557961'}
+2025-07-16 19:13:43,437 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:43,438 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557961
+2025-07-16 19:13:43,440 - DEBUG: Attempting GMP fetch: /markets/557961/history with params {}
+2025-07-16 19:13:43,443 - DEBUG: GET https://gamma-api.polymarket.com/markets/557961/history params={}
+2025-07-16 19:13:43,815 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:43,816 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557961/history
+2025-07-16 19:13:43,818 - WARNING: Could not fetch historical prices for GMP market 557961
+2025-07-16 19:13:43,821 - DEBUG: GET https://gamma-api.polymarket.com/markets/557961 params={}
+2025-07-16 19:13:44,195 - DEBUG: Response: {
+  "id": "557961",
+  "question": "Will Company F have the top AI model on August 31?",
+  "conditionId": "0x00b8d95ac3ad24c93c015364d6a94781ff30861f2413038e66b03c4137e3167c",
+  "slug": "will-company-f-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.729Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "ic...
+2025-07-16 19:13:44,196 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:44,199 - WARNING: No data available for GMP market will-company-f-have-the-top-ai-model-on-august-31 (ID: 557961)
+2025-07-16 19:13:44,202 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-company-f-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:44,202 - INFO: Processing market 8/12
+2025-07-16 19:13:44,204 - INFO: Building CSV for GMP market: Will Company E have the top AI model on August 31?
+2025-07-16 19:13:44,204 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557960', 'resolution': 60}
+2025-07-16 19:13:44,205 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557960', 'resolution': 60}
+2025-07-16 19:13:44,586 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:44,587 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557960&resolution=60
+2025-07-16 19:13:44,589 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557960'}
+2025-07-16 19:13:44,592 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557960'}
+2025-07-16 19:13:44,922 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:44,922 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557960
+2025-07-16 19:13:44,925 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557960', 'resolution': 60}
+2025-07-16 19:13:44,925 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557960', 'resolution': 60}
+2025-07-16 19:13:45,274 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:45,275 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557960&resolution=60
+2025-07-16 19:13:45,277 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557960', 'resolution': 60}
+2025-07-16 19:13:45,281 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557960', 'resolution': 60}
+2025-07-16 19:13:45,629 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:45,630 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557960&resolution=60
+2025-07-16 19:13:45,632 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557960'}
+2025-07-16 19:13:45,635 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557960'}
+2025-07-16 19:13:46,063 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:46,064 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557960
+2025-07-16 19:13:46,066 - DEBUG: Attempting GMP fetch: /markets/557960/history with params {}
+2025-07-16 19:13:46,070 - DEBUG: GET https://gamma-api.polymarket.com/markets/557960/history params={}
+2025-07-16 19:13:46,422 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:46,423 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557960/history
+2025-07-16 19:13:46,425 - WARNING: Could not fetch historical prices for GMP market 557960
+2025-07-16 19:13:46,428 - DEBUG: GET https://gamma-api.polymarket.com/markets/557960 params={}
+2025-07-16 19:13:46,829 - DEBUG: Response: {
+  "id": "557960",
+  "question": "Will Company E have the top AI model on August 31?",
+  "conditionId": "0x40cd735758443460ce70dd925494d0a087a915d524acecc4856eeab264fa2bd3",
+  "slug": "will-company-e-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "0",
+  "startDate": "2025-06-30T23:30:07.473Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-company-has-best-ai-model-on-february-28-j707Q2bmqChj.jpg",
+  "ic...
+2025-07-16 19:13:46,829 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:46,832 - WARNING: No data available for GMP market will-company-e-have-the-top-ai-model-on-august-31 (ID: 557960)
+2025-07-16 19:13:46,836 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-company-e-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:46,836 - INFO: Processing market 9/12
+2025-07-16 19:13:46,837 - INFO: Building CSV for GMP market: Will OpenAi have the top AI model on August 31?
+2025-07-16 19:13:46,838 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557950', 'resolution': 60}
+2025-07-16 19:13:46,838 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557950', 'resolution': 60}
+2025-07-16 19:13:47,184 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:47,184 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557950&resolution=60
+2025-07-16 19:13:47,187 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557950'}
+2025-07-16 19:13:47,191 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557950'}
+2025-07-16 19:13:47,659 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:47,660 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557950
+2025-07-16 19:13:47,662 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557950', 'resolution': 60}
+2025-07-16 19:13:47,665 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557950', 'resolution': 60}
+2025-07-16 19:13:48,082 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:48,083 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557950&resolution=60
+2025-07-16 19:13:48,085 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557950', 'resolution': 60}
+2025-07-16 19:13:48,088 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557950', 'resolution': 60}
+2025-07-16 19:13:48,444 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:48,444 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557950&resolution=60
+2025-07-16 19:13:48,446 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557950'}
+2025-07-16 19:13:48,447 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557950'}
+2025-07-16 19:13:48,793 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:48,793 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557950
+2025-07-16 19:13:48,796 - DEBUG: Attempting GMP fetch: /markets/557950/history with params {}
+2025-07-16 19:13:48,799 - DEBUG: GET https://gamma-api.polymarket.com/markets/557950/history params={}
+2025-07-16 19:13:49,286 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:49,286 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557950/history
+2025-07-16 19:13:49,291 - WARNING: Could not fetch historical prices for GMP market 557950
+2025-07-16 19:13:49,292 - DEBUG: GET https://gamma-api.polymarket.com/markets/557950 params={}
+2025-07-16 19:13:49,666 - DEBUG: Response: {
+  "id": "557950",
+  "question": "Will OpenAi have the top AI model on August 31?",
+  "conditionId": "0xc0f3faeb3ac410b2b63739c39282a008263f2015cc909365ce6a788f3f5bfa48",
+  "slug": "will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "8015.6428",
+  "startDate": "2025-06-30T23:29:57.31Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-have-the-top-ai-model-on-februar...
+2025-07-16 19:13:49,666 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:49,669 - WARNING: No data available for GMP market will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31 (ID: 557950)
+2025-07-16 19:13:49,673 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-openai-be-the-best-ai-model-in-the-world-by-market-cap-on-august-31-metadata.json
+2025-07-16 19:13:49,674 - INFO: Processing market 10/12
+2025-07-16 19:13:49,675 - INFO: Building CSV for GMP market: Will xAI have the top AI model on August 31?
+2025-07-16 19:13:49,676 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557951', 'resolution': 60}
+2025-07-16 19:13:49,676 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557951', 'resolution': 60}
+2025-07-16 19:13:50,075 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:50,075 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557951&resolution=60
+2025-07-16 19:13:50,077 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557951'}
+2025-07-16 19:13:50,078 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557951'}
+2025-07-16 19:13:50,924 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:50,924 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557951
+2025-07-16 19:13:50,926 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557951', 'resolution': 60}
+2025-07-16 19:13:50,930 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557951', 'resolution': 60}
+2025-07-16 19:13:51,398 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:51,398 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557951&resolution=60
+2025-07-16 19:13:51,400 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557951', 'resolution': 60}
+2025-07-16 19:13:51,401 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557951', 'resolution': 60}
+2025-07-16 19:13:51,756 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:51,757 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557951&resolution=60
+2025-07-16 19:13:51,758 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557951'}
+2025-07-16 19:13:51,759 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557951'}
+2025-07-16 19:13:52,106 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:52,106 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557951
+2025-07-16 19:13:52,109 - DEBUG: Attempting GMP fetch: /markets/557951/history with params {}
+2025-07-16 19:13:52,110 - DEBUG: GET https://gamma-api.polymarket.com/markets/557951/history params={}
+2025-07-16 19:13:52,452 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:52,453 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557951/history
+2025-07-16 19:13:52,455 - WARNING: Could not fetch historical prices for GMP market 557951
+2025-07-16 19:13:52,457 - DEBUG: GET https://gamma-api.polymarket.com/markets/557951 params={}
+2025-07-16 19:13:52,796 - DEBUG: Response: {
+  "id": "557951",
+  "question": "Will xAI have the top AI model on August 31?",
+  "conditionId": "0xeac4ec22f9ca445759238d91d12299b57c1256b32f4a563bfde36dbc1b5fddb2",
+  "slug": "will-xai-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "7292.9555",
+  "startDate": "2025-06-30T23:29:58.805Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-xai-have-the-top-ai-model-on-february-28-u3iUE4o3SB1s.jpg",
+  "icon": ...
+2025-07-16 19:13:52,797 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:52,801 - WARNING: No data available for GMP market will-xai-have-the-top-ai-model-on-august-31 (ID: 557951)
+2025-07-16 19:13:52,806 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-xai-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:52,806 - INFO: Processing market 11/12
+2025-07-16 19:13:52,807 - INFO: Building CSV for GMP market: Will Meta have the top AI model on August 31?
+2025-07-16 19:13:52,808 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557952', 'resolution': 60}
+2025-07-16 19:13:52,809 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557952', 'resolution': 60}
+2025-07-16 19:13:53,139 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:53,140 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557952&resolution=60
+2025-07-16 19:13:53,144 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557952'}
+2025-07-16 19:13:53,144 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557952'}
+2025-07-16 19:13:53,495 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:53,496 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557952
+2025-07-16 19:13:53,498 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557952', 'resolution': 60}
+2025-07-16 19:13:53,500 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557952', 'resolution': 60}
+2025-07-16 19:13:53,863 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:53,864 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557952&resolution=60
+2025-07-16 19:13:53,867 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557952', 'resolution': 60}
+2025-07-16 19:13:53,868 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557952', 'resolution': 60}
+2025-07-16 19:13:54,222 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:54,223 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557952&resolution=60
+2025-07-16 19:13:54,225 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557952'}
+2025-07-16 19:13:54,226 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557952'}
+2025-07-16 19:13:54,580 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:54,581 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557952
+2025-07-16 19:13:54,583 - DEBUG: Attempting GMP fetch: /markets/557952/history with params {}
+2025-07-16 19:13:54,585 - DEBUG: GET https://gamma-api.polymarket.com/markets/557952/history params={}
+2025-07-16 19:13:54,951 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:54,952 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557952/history
+2025-07-16 19:13:54,955 - WARNING: Could not fetch historical prices for GMP market 557952
+2025-07-16 19:13:54,956 - DEBUG: GET https://gamma-api.polymarket.com/markets/557952 params={}
+2025-07-16 19:13:55,392 - DEBUG: Response: {
+  "id": "557952",
+  "question": "Will Meta have the top AI model on August 31?",
+  "conditionId": "0x676e2d502ea0351e51c67ab93f1245c15c79981ef2eb6e92feed9d7403608749",
+  "slug": "will-meta-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "7986.86121",
+  "startDate": "2025-06-30T23:29:58.552Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-meta-have-the-top-ai-model-on-february-28-eQrfClr-SzAR.png",
+  "ico...
+2025-07-16 19:13:55,393 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:55,396 - WARNING: No data available for GMP market will-meta-have-the-top-ai-model-on-august-31 (ID: 557952)
+2025-07-16 19:13:55,399 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-meta-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:55,399 - INFO: Processing market 12/12
+2025-07-16 19:13:55,400 - INFO: Building CSV for GMP market: Will Anthropic have the top AI model on August 31?
+2025-07-16 19:13:55,400 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557953', 'resolution': 60}
+2025-07-16 19:13:55,401 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557953', 'resolution': 60}
+2025-07-16 19:13:55,805 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:55,806 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557953&resolution=60
+2025-07-16 19:13:55,807 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'marketId': '557953'}
+2025-07-16 19:13:55,808 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'marketId': '557953'}
+2025-07-16 19:13:56,194 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:56,194 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?marketId=557953
+2025-07-16 19:13:56,194 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'market_id': '557953', 'resolution': 60}
+2025-07-16 19:13:56,194 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'market_id': '557953', 'resolution': 60}
+2025-07-16 19:13:56,674 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:56,674 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?market_id=557953&resolution=60
+2025-07-16 19:13:56,683 - DEBUG: Attempting GMP fetch: /gmp/market-history with params {'id': '557953', 'resolution': 60}
+2025-07-16 19:13:56,683 - DEBUG: GET https://gamma-api.polymarket.com/gmp/market-history params={'id': '557953', 'resolution': 60}
+2025-07-16 19:13:57,224 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:57,224 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/gmp/market-history?id=557953&resolution=60
+2025-07-16 19:13:57,224 - DEBUG: Attempting GMP fetch: /markets/history with params {'id': '557953'}
+2025-07-16 19:13:57,224 - DEBUG: GET https://gamma-api.polymarket.com/markets/history params={'id': '557953'}
+2025-07-16 19:13:57,574 - ERROR: HTTP Error 422: {"type":"validation error","error":"id is invalid"}
+
+2025-07-16 19:13:57,574 - DEBUG: Attempt failed: 422 Client Error: Unprocessable Entity for url: https://gamma-api.polymarket.com/markets/history?id=557953
+2025-07-16 19:13:57,574 - DEBUG: Attempting GMP fetch: /markets/557953/history with params {}
+2025-07-16 19:13:57,574 - DEBUG: GET https://gamma-api.polymarket.com/markets/557953/history params={}
+2025-07-16 19:13:58,195 - ERROR: HTTP Error 404: 404 page not found
+
+2025-07-16 19:13:58,195 - DEBUG: Attempt failed: 404 Client Error: Not Found for url: https://gamma-api.polymarket.com/markets/557953/history
+2025-07-16 19:13:58,195 - WARNING: Could not fetch historical prices for GMP market 557953
+2025-07-16 19:13:58,195 - DEBUG: GET https://gamma-api.polymarket.com/markets/557953 params={}
+2025-07-16 19:13:58,944 - DEBUG: Response: {
+  "id": "557953",
+  "question": "Will Anthropic have the top AI model on August 31?",
+  "conditionId": "0x3dd78dce2542e8299325f67f79887011d14e5cfa5af14f71d1817877fb781f87",
+  "slug": "will-anthropic-have-the-top-ai-model-on-august-31",
+  "resolutionSource": "",
+  "endDate": "2025-07-31T00:00:00Z",
+  "liquidity": "3835.09035",
+  "startDate": "2025-06-30T23:30:02.172Z",
+  "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-anthropic-have-the-top-ai-model-on-february-28-2aPXb3voV_...
+2025-07-16 19:13:58,944 - INFO: Retrieved current market data instead of history
+2025-07-16 19:13:58,944 - WARNING: No data available for GMP market will-anthropic-have-the-top-ai-model-on-august-31 (ID: 557953)
+2025-07-16 19:13:58,954 - INFO: Saved market metadata to which-company-has-best-ai-model-end-of-august-will-anthropic-have-the-top-ai-model-on-august-31-metadata.json
+2025-07-16 19:13:58,954 - INFO: ================================================================================
+2025-07-16 19:13:58,954 - INFO: Process completed. Log saved to: logs\polymarket_log_20250716_191322.txt
+2025-07-16 19:13:58,954 - INFO: Done.
