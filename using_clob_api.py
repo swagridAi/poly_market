@@ -1,20 +1,3 @@
-#!/usr/bin/env python3
-"""
-polymarket_price_fetcher_enriched.py
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Pull minute‑level prices, full trade tape, order‑book snapshots and metadata
-for every market in a Polymarket event.
-
-Usage:
-    python polymarket_price_fetcher_enriched.py <event_url>
-        [--interval=max] [--fidelity=1] [--trades] [--book]
-
-    --interval   1m, 1h, 6h, 1d, 1w, max   (CLOB price‑history interval)
-    --fidelity   resolution in minutes (default 1; ignored if interval ≠ 1m)
-    --trades     also fetch raw trades for each token
-    --book       also fetch a depth‑20 order‑book snapshot for each token
-"""
-
 from __future__ import annotations
 import logging, re, sys, json, os, time
 from datetime import datetime
@@ -213,9 +196,7 @@ def write_market_files(parent_slug: str, market: Dict, outdir: str,
         json.dump(market, f, indent=2)
     logger.info("  ✓ metadata → %s", meta_path)
 
-# ---------------------------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------------------------
+
 # ---------------------------------------------------------------------------
 # MAIN
 # ---------------------------------------------------------------------------
