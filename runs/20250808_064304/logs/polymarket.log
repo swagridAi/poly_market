@@ -1,0 +1,36 @@
+2025-08-08 06:43:04,397 - INFO: ================================================================================
+2025-08-08 06:43:04,397 - INFO: Polymarket batch fetcher started
+2025-08-08 06:43:04,400 - INFO: URLs      : 10
+2025-08-08 06:43:04,401 - INFO: interval  : max | fidelity: 1
+2025-08-08 06:43:04,414 - INFO: trades    : True | book: True
+2025-08-08 06:43:04,414 - INFO: batch dir : runs\20250808_064304
+2025-08-08 06:43:04,415 - INFO: ================================================================================
+2025-08-08 06:43:04,432 - INFO: ----- [1 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-08-08 06:43:06,312 - INFO: Market 1 / 12
+2025-08-08 06:43:06,312 - INFO: • Will Google have the top AI model on August 31?
+2025-08-08 06:43:08,252 - INFO:   ✓ prices → runs\20250808_064304\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-prices.csv (4559 rows)
+2025-08-08 06:45:47,933 - INFO:   ✓ trades YES → runs\20250808_064304\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_yes.csv (50000 rows)
+2025-08-08 06:45:49,910 - INFO:   ✓ trades NO → runs\20250808_064304\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_no.csv (50000 rows)
+2025-08-08 06:45:50,431 - ERROR: HTTP 400 – {"error":"Invalid token id"}
+
+2025-08-08 06:45:50,432 - ERROR: Fatal error for https://polymarket.com/event/which-company-has-best-ai-model-end-of-august: 400 Client Error: Bad Request for url: https://clob.polymarket.com/book?market=7208317244107376413052941744149505289038231717682924937889270095719324965159
+Traceback (most recent call last):
+  File "C:\Users\User\python_code\poly_market\cli.py", line 105, in run
+    self.process_market(parent_slug=slug,
+  File "C:\Users\User\python_code\poly_market\cli.py", line 59, in process_market
+    ob_yes, ob_no = self.orderbook_collector.collect_market_orderbook(market)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\python_code\poly_market\collectors\orderbook_collector.py", line 27, in collect_market_orderbook
+    df_yes = self.clob.fetch_order_book(tok_yes, depth)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\python_code\poly_market\core\clob_client.py", line 34, in fetch_order_book
+    ob = self._get("/book", market=token_id)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\python_code\poly_market\core\api_client.py", line 24, in _get
+    r.raise_for_status()
+  File "C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://clob.polymarket.com/book?market=7208317244107376413052941744149505289038231717682924937889270095719324965159
+2025-08-08 06:45:50,528 - INFO: ----- [2 / 10] https://polymarket.com/event/top-ai-model-on-january-31
+2025-08-08 06:45:52,003 - INFO: Market 1 / 6
+2025-08-08 06:45:52,004 - INFO: • Will Google have the top AI model on January 31?
