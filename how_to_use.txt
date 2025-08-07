@@ -1,1 +1,1 @@
-C:\Users\User\python_code\poly_market>python cli.py ../input.csv --trades --book
+C:\Users\User\python_code\poly_market>python cli.py input.csv --trades --book

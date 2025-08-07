@@ -1,12 +1,12 @@
 # ============================================
-# cli.py - NEW MAIN ENTRY POINT
+# cli.py - FIXED MAIN ENTRY POINT
 # ============================================
 """Main CLI interface for Polymarket data collection."""
 
 import os
 import sys
 import pandas as pd
-from typing import List
+from typing import List, Dict  # Added Dict here
 
 from config.settings import Config
 from core.gamma_client import GammaClient
