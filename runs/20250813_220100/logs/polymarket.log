@@ -1,0 +1,25 @@
+2025-08-13 22:01:00,570 - INFO: ================================================================================
+2025-08-13 22:01:00,570 - INFO: Polymarket batch fetcher started
+2025-08-13 22:01:00,585 - INFO: URLs      : 10
+2025-08-13 22:01:00,590 - INFO: interval  : max | fidelity: 1
+2025-08-13 22:01:00,596 - INFO: trades    : True | book: True
+2025-08-13 22:01:00,598 - INFO: batch dir : runs\20250813_220100
+2025-08-13 22:01:00,607 - INFO: ================================================================================
+2025-08-13 22:01:00,639 - INFO: ----- [1 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-08-13 22:01:01,684 - INFO: Market 1 / 12
+2025-08-13 22:01:01,688 - INFO: • Will Google have the top AI model on August 31?
+2025-08-13 22:01:02,464 - INFO: Fetching trades for token (decimal): 7208317244107376413052941744149505289038231717682924937889270095719324965159
+2025-08-13 22:02:03,915 - INFO: Trade fetch complete: 50000 total trades fetched, 100 matched token
+2025-08-13 22:02:03,987 - INFO: Fetching trades for token (decimal): 85258737363731752084699249632169994536598997877611902565030969778961005941927
+2025-08-13 22:02:54,925 - INFO: Trade fetch complete: 50000 total trades fetched, 50 matched token
+2025-08-13 22:02:54,962 - INFO:   ✓ trades YES → runs\20250813_220100\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_yes.csv (100 rows)
+2025-08-13 22:02:54,968 - INFO:   ✓ trades NO → runs\20250813_220100\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_no.csv (50 rows)
+2025-08-13 22:02:55,283 - WARNING: No order book for YES token (might be resolved/inactive): cannot convert input 1755086556829.0 with the unit 's', at position 0
+2025-08-13 22:02:55,595 - ERROR: HTTP 404 – {"error":"No orderbook exists for the requested token id"}
+
+2025-08-13 22:02:55,596 - WARNING: No order book for NO token (might be resolved/inactive): 404 Client Error: Not Found for url: https://clob.polymarket.com/book?token_id=0xbc7ebc3a4b41cd5c0ae
+2025-08-13 22:02:55,601 - INFO:   ℹ️ No order book data (market may be resolved/inactive)
+2025-08-13 22:02:55,604 - INFO:   ✓ metadata → runs\20250813_220100\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-metadata.json
+2025-08-13 22:02:55,616 - INFO: Market 2 / 12
+2025-08-13 22:02:55,617 - INFO: • Will another company have the top AI model on August 31?
+2025-08-13 22:02:56,269 - INFO: Fetching trades for token (decimal): 12507041227391808714042040464771956426592086391362171486340298075986791005128

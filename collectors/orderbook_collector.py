@@ -52,7 +52,7 @@ class OrderBookCollector:
         # Try to fetch NO order book with error handling
         df_no = pd.DataFrame()
         try:
-            df_no = self.clob.fetch_order_book(tok_no_hex, depth)
+            df_no = self.clob.fetch_order_book(tok_no_decimal, depth)
             if not df_no.empty:
                 df_no["outcome"] = "NO"
         except Exception as e:

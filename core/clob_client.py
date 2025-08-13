@@ -35,7 +35,7 @@ class CLOBClient(BaseAPIClient):
         ob = self._get("/book", token_id=token_id)
         
         rows = []
-        t = pd.to_datetime(ob["timestamp"], unit="s", utc=True)
+        t = pd.to_datetime(ob["timestamp"], unit="ms", utc=True)
         
         for side, ladder in [("bid", ob.get("bids", [])),
                             ("ask", ob.get("asks", []))]:
