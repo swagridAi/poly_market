@@ -12,7 +12,7 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
         Converted token ID string
     """
     # Clean the input
-    print(f"DEBUG convert_token_id: input={token_id[:30]}..., to_format={to_format}")
+    print(f"DEBUG convert_token_id: input={token_id}..., to_format={to_format}")
     token_id = str(token_id).strip()
     
     if to_format == "hex":

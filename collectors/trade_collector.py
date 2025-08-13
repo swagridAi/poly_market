@@ -25,8 +25,8 @@ class TradeCollector:
             tok_yes, tok_no = parse_clob_token_ids(tid_str)
             
             if self.logger:
-                self.logger.debug(f"YES token (decimal): {tok_yes[:30]}...")
-                self.logger.debug(f"NO token (decimal): {tok_no[:30]}...")
+                self.logger.debug(f"YES token (decimal): {tok_yes}...")
+                self.logger.debug(f"NO token (decimal): {tok_no}...")
                 
         except Exception as e:
             if self.logger:

@@ -31,8 +31,8 @@ class OrderBookCollector:
             tok_no_hex = convert_token_id(tok_no_decimal, "hex")
             
             if self.logger:
-                self.logger.debug(f"YES token: hex={tok_yes_hex[:30]}...")
-                self.logger.debug(f"NO token: hex={tok_no_hex[:30]}...")
+                self.logger.debug(f"YES token: hex={tok_yes_hex}...")
+                self.logger.debug(f"NO token: hex={tok_no_hex}...")
                 
         except Exception as e:
             if self.logger:

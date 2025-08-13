@@ -23,8 +23,8 @@ class DataClient(BaseAPIClient):
         token_decimal = convert_token_id(token_id, "decimal")
         token_hex = convert_token_id(token_id, "hex")
         
-        self.logger.info(f"Fetching trades for token (decimal): {token_decimal[:30]}...")
-        self.logger.debug(f"Token hex equivalent: {token_hex[:30]}...")
+        self.logger.info(f"Fetching trades for token (decimal): {token_decimal}...")
+        self.logger.debug(f"Token hex equivalent: {token_hex}...")
     
         # Use decimal format for the API call
         params = {"asset": token_decimal, "limit": limit}
@@ -47,7 +47,7 @@ class DataClient(BaseAPIClient):
             
             # Log sample assets to debug format issues
             if data and self.logger:
-                unique_assets = list(set(str(trade.get("asset", "NONE"))[:30] for trade in data[:3]))
+                unique_assets = list(set(str(trade.get("asset", "NONE")) for trade in data[:3]))
                 self.logger.debug(f"Sample assets in response: {unique_assets}")
             
             # Filter trades to only include the requested token
