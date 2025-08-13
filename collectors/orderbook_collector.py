@@ -42,7 +42,7 @@ class OrderBookCollector:
         # Try to fetch YES order book with error handling
         df_yes = pd.DataFrame()
         try:
-            df_yes = self.clob.fetch_order_book(tok_yes_hex, depth)
+            df_yes = self.clob.fetch_order_book(tok_yes_decimal, depth)
             if not df_yes.empty:
                 df_yes["outcome"] = "YES"
         except Exception as e:

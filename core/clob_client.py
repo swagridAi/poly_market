@@ -32,7 +32,7 @@ class CLOBClient(BaseAPIClient):
                         depth: int = Config.DEFAULT_BOOK_DEPTH) -> pd.DataFrame:
         """Fetch current order book snapshot."""
         print(f"DEBUG fetch_order_book: token_id length={len(token_id)}, value={token_id}")
-        ob = self._get("/book", market=token_id)
+        ob = self._get("/book", token_id=token_id)
         
         rows = []
         t = pd.to_datetime(ob["timestamp"], unit="s", utc=True)
