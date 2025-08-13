@@ -16,17 +16,25 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
     
     if to_format == "hex":
         if token_id.startswith("0x"):
-            # Already hex
-            return token_id.lower()
+            # Already hex - ensure it's lowercase and properly padded
+            hex_value = token_id.lower()
+            # Remove 0x prefix for padding calculation
+            hex_digits = hex_value[2:]
+            # Pad to 64 characters (256 bits / 4 bits per hex digit)
+            hex_digits = hex_digits.zfill(64)
+            return "0x" + hex_digits
         else:
             # Convert decimal to hex
             # These are 256-bit numbers, handle as strings
             try:
-                # Convert decimal string to hex with 0x prefix
-                hex_value = hex(int(token_id))
-                return hex_value.lower()
-            except ValueError:
-                # If conversion fails, return as-is
+                # Convert decimal string to integer, then to hex
+                decimal_int = int(token_id)
+                # Format as hex without 0x prefix
+                hex_digits = format(decimal_int, '064x')  # 064x = 64 chars, lowercase hex
+                return "0x" + hex_digits
+            except ValueError as e:
+                # If conversion fails, log error and return as-is
+                print(f"Warning: Failed to convert token ID to hex: {e}")
                 return token_id
     
     elif to_format == "decimal":
@@ -35,7 +43,8 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
             try:
                 decimal_value = str(int(token_id, 16))
                 return decimal_value
-            except ValueError:
+            except ValueError as e:
+                print(f"Warning: Failed to convert token ID to decimal: {e}")
                 return token_id
         else:
             # Already decimal
@@ -81,3 +90,62 @@ def parse_clob_token_ids(tid_str: str) -> tuple[str, str]:
     
     # Return as decimal strings (the format they come in)
     return str(tokens[0]), str(tokens[1])
+
+
+# Optional: Add a validation function to check token format
+def validate_hex_token(token_id: str) -> bool:
+    """
+    Validate that a hex token ID is properly formatted.
+    
+    Args:
+        token_id: Token ID to validate
+        
+    Returns:
+        True if valid hex token ID format
+    """
+    if not token_id.startswith("0x"):
+        return False
+    
+    hex_part = token_id[2:]
+    
+    # Should be 64 hex characters for a 256-bit number
+    if len(hex_part) != 64:
+        return False
+    
+    # Check if all characters are valid hex
+    try:
+        int(hex_part, 16)
+        return True
+    except ValueError:
+        return False
+
+
+# Optional: Test function to verify conversions
+def test_token_conversion():
+    """Test token ID conversions with sample values."""
+    # Test cases
+    test_cases = [
+        # Short decimal that was causing issues
+        ("720831724410737641305294174414", "hex"),
+        # Already hex (short)
+        ("0xfefc3529459a46d28d7", "hex"),
+        # Full-length decimal example
+        ("115792089237316195423570985008687907853269984665640564039457584007913129639935", "hex"),
+    ]
+    
+    print("Token Conversion Tests:")
+    print("-" * 80)
+    
+    for token, target_format in test_cases:
+        result = convert_token_id(token, target_format)
+        print(f"Input:  {token[:50]}...")
+        print(f"Output: {result}")
+        if target_format == "hex":
+            print(f"Length: {len(result) - 2} hex digits (should be 64)")
+            print(f"Valid:  {validate_hex_token(result)}")
+        print("-" * 40)
+
+
+if __name__ == "__main__":
+    # Run tests if executed directly
+    test_token_conversion()
