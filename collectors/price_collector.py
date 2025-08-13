@@ -1,9 +1,9 @@
 """Price data collection module with FIXED token handling."""
 
-import json
 import pandas as pd
 from typing import Dict, Optional
 from core.clob_client import CLOBClient
+from utils.token_utils import parse_clob_token_ids, convert_token_id
 
 class PriceCollector:
     """Collects price data for markets with error handling."""
@@ -23,27 +23,16 @@ class PriceCollector:
             return None
         
         try:
-            # CRITICAL FIX: Parse as string, not JSON
-            # The clobTokenIds might be in different formats:
-            # 1. JSON array: '["token1","token2"]'
-            # 2. Simple string: '"token1","token2"'
-            # 3. Already parsed array (from some API responses)
+            # Parse tokens (returns decimal format)
+            tok_yes_decimal, tok_no_decimal = parse_clob_token_ids(tid_str)
             
-            if isinstance(tid_str, list):
-                # Already parsed
-                tok_yes, tok_no = tid_str[0], tid_str[1]
-            elif tid_str.startswith('['):
-                # JSON array format
-                tokens = json.loads(tid_str)
-                tok_yes, tok_no = tokens[0], tokens[1]
-            else:
-                # Simple comma-separated format
-                cleaned = tid_str.strip('[]"')
-                tokens = [t.strip('" ') for t in cleaned.split(',')]
-                tok_yes, tok_no = tokens[0], tokens[1]
-                
+            # Convert to hex for CLOB API
+            tok_yes_hex = convert_token_id(tok_yes_decimal, "hex")
+            tok_no_hex = convert_token_id(tok_no_decimal, "hex")
+            
             if self.logger:
-                self.logger.debug(f"Parsed tokens - YES: {tok_yes[:50]}..., NO: {tok_no[:50]}...")
+                self.logger.debug(f"YES token: decimal={tok_yes_decimal[:20]}..., hex={tok_yes_hex[:20]}...")
+                self.logger.debug(f"NO token: decimal={tok_no_decimal[:20]}..., hex={tok_no_hex[:20]}...")
                 
         except Exception as e:
             if self.logger:
@@ -55,13 +44,13 @@ class PriceCollector:
         df_no = pd.DataFrame()
         
         try:
-            df_yes = self.clob.fetch_price_history(tok_yes, interval, fidelity)
+            df_yes = self.clob.fetch_price_history(tok_yes_hex, interval, fidelity)
         except Exception as e:
             if self.logger:
                 self.logger.warning("Failed to fetch YES prices: %s", str(e)[:100])
         
         try:
-            df_no = self.clob.fetch_price_history(tok_no, interval, fidelity)
+            df_no = self.clob.fetch_price_history(tok_no_hex, interval, fidelity)
         except Exception as e:
             if self.logger:
                 self.logger.warning("Failed to fetch NO prices: %s", str(e)[:100])

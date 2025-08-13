@@ -1,10 +1,10 @@
 """Order book data collection module with FIXED token handling."""
 
-import json
 from typing import Dict, Tuple
 import pandas as pd
 from core.clob_client import CLOBClient
 from config.settings import Config
+from utils.token_utils import parse_clob_token_ids, convert_token_id
 
 class OrderBookCollector:
     """Collects order book snapshots with error handling."""
@@ -23,21 +23,16 @@ class OrderBookCollector:
             return pd.DataFrame(), pd.DataFrame()
         
         try:
-            # CRITICAL FIX: Parse as string, not JSON
-            # The clobTokenIds is a string like '"token1","token2"'
-            cleaned = tid_str.strip('[]"')
-            tokens = [t.strip('" ') for t in cleaned.split(',')]
+            # Parse tokens (returns decimal format)
+            tok_yes_decimal, tok_no_decimal = parse_clob_token_ids(tid_str)
             
-            if len(tokens) != 2:
-                if self.logger:
-                    self.logger.warning(f"Expected 2 tokens, got {len(tokens)}: {tokens}")
-                return pd.DataFrame(), pd.DataFrame()
-            
-            tok_yes, tok_no = tokens[0], tokens[1]
+            # Convert to hex for CLOB API
+            tok_yes_hex = convert_token_id(tok_yes_decimal, "hex")
+            tok_no_hex = convert_token_id(tok_no_decimal, "hex")
             
             if self.logger:
-                self.logger.debug(f"YES token (full): {tok_yes}")
-                self.logger.debug(f"NO token (full): {tok_no}")
+                self.logger.debug(f"YES token: hex={tok_yes_hex[:30]}...")
+                self.logger.debug(f"NO token: hex={tok_no_hex[:30]}...")
                 
         except Exception as e:
             if self.logger:
@@ -47,7 +42,7 @@ class OrderBookCollector:
         # Try to fetch YES order book with error handling
         df_yes = pd.DataFrame()
         try:
-            df_yes = self.clob.fetch_order_book(tok_yes, depth)
+            df_yes = self.clob.fetch_order_book(tok_yes_hex, depth)
             if not df_yes.empty:
                 df_yes["outcome"] = "YES"
         except Exception as e:
@@ -57,7 +52,7 @@ class OrderBookCollector:
         # Try to fetch NO order book with error handling
         df_no = pd.DataFrame()
         try:
-            df_no = self.clob.fetch_order_book(tok_no, depth)
+            df_no = self.clob.fetch_order_book(tok_no_hex, depth)
             if not df_no.empty:
                 df_no["outcome"] = "NO"
         except Exception as e:
