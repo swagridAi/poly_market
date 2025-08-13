@@ -10,12 +10,29 @@ class DataClient(BaseAPIClient):
     def __init__(self, logger=None):
         super().__init__(Config.DATA_BASE, logger)
     
+    def normalize_token_id(token_id: str) -> tuple[str, str]:
+        """Return both decimal and hex versions of token ID."""
+        if token_id.startswith("0x"):
+            # It's hex, convert to decimal
+            decimal = str(int(token_id, 16))
+            return token_id, decimal
+        elif token_id.isdigit():
+            # It's decimal, convert to hex
+            hex_val = hex(int(token_id))
+            return hex_val, token_id
+        else:
+            return token_id, token_id
+
     def fetch_trades(self, token_id: str,
                     start: Optional[int] = None,
                     end: Optional[int] = None,
                     limit: int = Config.DEFAULT_TRADE_LIMIT,
                     max_pages: int = Config.MAX_TRADE_PAGES) -> pd.DataFrame:
         """Fetch trade history with pagination and FILTERING."""
+        
+        self.logger.info(f"Fetching trades for token: {token_id}")
+        self.logger.debug(f"Token ID type: {type(token_id)}, length: {len(str(token_id))}")
+    
         params = {"asset": token_id, "limit": limit}
         if start:
             params["startTime"] = start
@@ -27,7 +44,8 @@ class DataClient(BaseAPIClient):
         total_fetched = 0
         filtered_count = 0
         
-        self.logger.info(f"Fetching trades for token: {token_id}")
+        self.logger.info(f"Fetching trades for token: {token_id}, normalised token {normalize_token_id(token_id)}")
+        
         
         while page < max_pages:
             data = self._get("/trades", **params)
@@ -35,12 +53,15 @@ class DataClient(BaseAPIClient):
                 break
             
             total_fetched += len(data)
-            
+            unique_assets = list(set(trade.get("asset", "NONE") for trade in data[:10]))
+            self.logger.debug(f"Sample assets in response: {unique_assets[:3]}")
             # CRITICAL FIX: Filter trades to only include the requested token
             # The API returns all trades, so we must filter client-side
             filtered_data = [
                 trade for trade in data 
-                if trade.get("asset") == token_id
+                if (trade.get("asset") == token_id or 
+                    trade.get("asset") == str(token_id) or
+                    trade.get("asset") == hex(int(token_id)) if token_id.isdigit() else None)
             ]
             
             filtered_count += len(filtered_data)
@@ -97,3 +118,4 @@ class DataClient(BaseAPIClient):
             )
         
         return result
+    

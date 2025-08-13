@@ -1,4 +1,4 @@
-"""Trade data collection module."""
+"""Trade data collection module with FIXED token handling."""
 
 import json
 from typing import Dict, List, Tuple
@@ -21,7 +21,23 @@ class TradeCollector:
             return pd.DataFrame(), pd.DataFrame()
         
         try:
-            tok_yes, tok_no = json.loads(tid_str)
+            # CRITICAL FIX: Parse as string, not JSON
+            # The clobTokenIds is a string like '"token1","token2"'
+            # Remove quotes and split properly
+            cleaned = tid_str.strip('[]"')
+            tokens = [t.strip('" ') for t in cleaned.split(',')]
+            
+            if len(tokens) != 2:
+                if self.logger:
+                    self.logger.warning(f"Expected 2 tokens, got {len(tokens)}: {tokens}")
+                return pd.DataFrame(), pd.DataFrame()
+            
+            tok_yes, tok_no = tokens[0], tokens[1]
+            
+            if self.logger:
+                self.logger.debug(f"YES token (full): {tok_yes}")
+                self.logger.debug(f"NO token (full): {tok_no}")
+                
         except Exception as e:
             if self.logger:
                 self.logger.warning("Failed to parse clobTokenIds: %s", e)
@@ -48,4 +64,3 @@ class TradeCollector:
                 self.logger.warning("Failed to fetch NO trades: %s", str(e)[:100])
         
         return df_yes, df_no
-

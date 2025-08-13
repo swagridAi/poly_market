@@ -1,4 +1,4 @@
-"""Price data collection module."""
+"""Price data collection module with FIXED token handling."""
 
 import json
 import pandas as pd
@@ -23,7 +23,28 @@ class PriceCollector:
             return None
         
         try:
-            tok_yes, tok_no = json.loads(tid_str)
+            # CRITICAL FIX: Parse as string, not JSON
+            # The clobTokenIds might be in different formats:
+            # 1. JSON array: '["token1","token2"]'
+            # 2. Simple string: '"token1","token2"'
+            # 3. Already parsed array (from some API responses)
+            
+            if isinstance(tid_str, list):
+                # Already parsed
+                tok_yes, tok_no = tid_str[0], tid_str[1]
+            elif tid_str.startswith('['):
+                # JSON array format
+                tokens = json.loads(tid_str)
+                tok_yes, tok_no = tokens[0], tokens[1]
+            else:
+                # Simple comma-separated format
+                cleaned = tid_str.strip('[]"')
+                tokens = [t.strip('" ') for t in cleaned.split(',')]
+                tok_yes, tok_no = tokens[0], tokens[1]
+                
+            if self.logger:
+                self.logger.debug(f"Parsed tokens - YES: {tok_yes[:50]}..., NO: {tok_no[:50]}...")
+                
         except Exception as e:
             if self.logger:
                 self.logger.warning("Failed to parse clobTokenIds: %s", e)
