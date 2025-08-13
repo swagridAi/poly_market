@@ -1,0 +1,27 @@
+2025-08-13 21:45:36,359 - INFO: ================================================================================
+2025-08-13 21:45:36,361 - INFO: Polymarket batch fetcher started
+2025-08-13 21:45:36,366 - INFO: URLs      : 10
+2025-08-13 21:45:36,366 - INFO: interval  : max | fidelity: 1
+2025-08-13 21:45:36,386 - INFO: trades    : True | book: True
+2025-08-13 21:45:36,416 - INFO: batch dir : runs\20250813_214536
+2025-08-13 21:45:36,422 - INFO: ================================================================================
+2025-08-13 21:45:36,423 - INFO: ----- [1 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-08-13 21:45:37,712 - INFO: Market 1 / 12
+2025-08-13 21:45:37,713 - INFO: • Will Google have the top AI model on August 31?
+2025-08-13 21:45:38,521 - INFO: Fetching trades for token (decimal): 7208317244107376413052941744149505289038231717682924937889270095719324965159
+2025-08-13 21:46:48,363 - INFO: Trade fetch complete: 50000 total trades fetched, 96 matched token
+2025-08-13 21:46:48,402 - INFO: Fetching trades for token (decimal): 85258737363731752084699249632169994536598997877611902565030969778961005941927
+2025-08-13 21:47:57,516 - INFO: Trade fetch complete: 50000 total trades fetched, 97 matched token
+2025-08-13 21:47:57,606 - INFO:   ✓ trades YES → runs\20250813_214536\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_yes.csv (96 rows)
+2025-08-13 21:47:57,613 - INFO:   ✓ trades NO → runs\20250813_214536\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-trades_no.csv (97 rows)
+2025-08-13 21:47:57,926 - ERROR: HTTP 400 – {"error":"Invalid token id"}
+
+2025-08-13 21:47:57,926 - WARNING: No order book for YES token (might be resolved/inactive): 400 Client Error: Bad Request for url: https://clob.polymarket.com/book?market=0x0fefc3529459a46d28d
+2025-08-13 21:47:58,233 - ERROR: HTTP 400 – {"error":"Invalid token id"}
+
+2025-08-13 21:47:58,233 - WARNING: No order book for NO token (might be resolved/inactive): 400 Client Error: Bad Request for url: https://clob.polymarket.com/book?market=0xbc7ebc3a4b41cd5c0ae
+2025-08-13 21:47:58,250 - INFO:   ℹ️ No order book data (market may be resolved/inactive)
+2025-08-13 21:47:58,253 - INFO:   ✓ metadata → runs\20250813_214536\which-company-has-best-ai-model-end-of-august\which-company-has-best-ai-model-end-of-august-will-google-have-the-top-ai-model-on-august-31-metadata.json
+2025-08-13 21:47:58,255 - INFO: Market 2 / 12
+2025-08-13 21:47:58,257 - INFO: • Will another company have the top AI model on August 31?
+2025-08-13 21:47:58,895 - INFO: Fetching trades for token (decimal): 12507041227391808714042040464771956426592086391362171486340298075986791005128
