@@ -23,8 +23,8 @@ class DataClient(BaseAPIClient):
         token_decimal = convert_token_id(token_id, "decimal")
         token_hex = convert_token_id(token_id, "hex")
         
-        self.logger.info(f"Fetching trades for token (decimal): {token_decimal}...")
-        self.logger.debug(f"Token hex equivalent: {token_hex}...")
+        self.logger.info(f"Fetching trades for token (decimal): {token_decimal}")
+        self.logger.debug(f"Token hex equivalent: {token_hex}")
     
         # Use decimal format for the API call
         params = {"asset": token_decimal, "limit": limit}

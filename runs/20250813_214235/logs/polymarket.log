@@ -1,0 +1,11 @@
+2025-08-13 21:42:35,294 - INFO: ================================================================================
+2025-08-13 21:42:35,295 - INFO: Polymarket batch fetcher started
+2025-08-13 21:42:35,310 - INFO: URLs      : 10
+2025-08-13 21:42:35,311 - INFO: interval  : max | fidelity: 1
+2025-08-13 21:42:35,311 - INFO: trades    : True | book: True
+2025-08-13 21:42:35,311 - INFO: batch dir : runs\20250813_214235
+2025-08-13 21:42:35,312 - INFO: ================================================================================
+2025-08-13 21:42:35,314 - INFO: ----- [1 / 10] https://polymarket.com/event/which-company-has-best-ai-model-end-of-august
+2025-08-13 21:42:36,284 - INFO: Market 1 / 12
+2025-08-13 21:42:36,285 - INFO: • Will Google have the top AI model on August 31?
+2025-08-13 21:42:37,024 - INFO: Fetching trades for token (decimal): 7208317244107376413052941744149505289038231717682924937889270095719324965159

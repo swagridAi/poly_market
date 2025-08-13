@@ -12,7 +12,7 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
         Converted token ID string
     """
     # Clean the input
-    print(f"DEBUG convert_token_id: input={token_id}..., to_format={to_format}")
+    print(f"DEBUG convert_token_id: input={token_id}, to_format={to_format}")
     token_id = str(token_id).strip()
     
     if to_format == "hex":
@@ -156,7 +156,7 @@ def test_token_conversion():
     
     for token, target_format in test_cases:
         result = convert_token_id(token, target_format)
-        print(f"Input:  {token[:50]}...")
+        print(f"Input:  {token}")
         print(f"Output: {result}")
         if target_format == "hex":
             print(f"Length: {len(result) - 2} hex digits (should be 64)")

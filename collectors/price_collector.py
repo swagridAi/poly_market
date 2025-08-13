@@ -31,8 +31,8 @@ class PriceCollector:
             tok_no_hex = convert_token_id(tok_no_decimal, "hex")
             
             if self.logger:
-                self.logger.debug(f"YES token: decimal={tok_yes_decimal[:20]}..., hex={tok_yes_hex[:20]}...")
-                self.logger.debug(f"NO token: decimal={tok_no_decimal[:20]}..., hex={tok_no_hex[:20]}...")
+                self.logger.debug(f"YES token: decimal={tok_yes_decimal}, hex={tok_yes_hex}")
+                self.logger.debug(f"NO token: decimal={tok_no_decimal}, hex={tok_no_hex}")
                 
         except Exception as e:
             if self.logger:
