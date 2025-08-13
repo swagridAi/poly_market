@@ -17,7 +17,7 @@ class BaseAPIClient:
     def _get(self, resource: str, **params) -> Dict[str, Any]:
         """Execute GET request with error handling."""
         url = f"{self.base_url}{resource}"
-        self.logger.debug("GET %s params=%s", url, params)
+        self.logger.debug("GET %s params=%s", url, params)  # Check if params are truncated here
         
         try:
             r = self.session.get(url, params=params, timeout=Config.TIMEOUT)
