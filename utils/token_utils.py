@@ -12,6 +12,7 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
         Converted token ID string
     """
     # Clean the input
+    print(f"DEBUG convert_token_id: input={token_id[:30]}..., to_format={to_format}")
     token_id = str(token_id).strip()
     
     if to_format == "hex":
@@ -22,6 +23,7 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
             hex_digits = hex_value[2:]
             # Pad to 64 characters (256 bits / 4 bits per hex digit)
             hex_digits = hex_digits.zfill(64)
+            print(f"DEBUG convert_token_id: output={"0x" + hex_digits}")
             return "0x" + hex_digits
         else:
             # Convert decimal to hex
@@ -31,6 +33,7 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
                 decimal_int = int(token_id)
                 # Format as hex without 0x prefix
                 hex_digits = format(decimal_int, '064x')  # 064x = 64 chars, lowercase hex
+                print(f"DEBUG convert_token_id: output={"0x" + hex_digits}")
                 return "0x" + hex_digits
             except ValueError as e:
                 # If conversion fails, log error and return as-is
@@ -42,14 +45,16 @@ def convert_token_id(token_id: str, to_format: str = "hex") -> str:
             # Convert hex to decimal
             try:
                 decimal_value = str(int(token_id, 16))
+                print(f"DEBUG convert_token_id: output={decimal_value}")
                 return decimal_value
             except ValueError as e:
                 print(f"Warning: Failed to convert token ID to decimal: {e}")
                 return token_id
         else:
             # Already decimal
+            print(f"DEBUG convert_token_id: output={token_id}")
             return token_id
-    
+    print(f"DEBUG convert_token_id: output={token_id}")
     return token_id
 
 
@@ -88,8 +93,21 @@ def parse_clob_token_ids(tid_str: str) -> tuple[str, str]:
     if len(tokens) != 2:
         raise ValueError(f"Expected 2 tokens, got {len(tokens)}: {tokens}")
     
-    # Return as decimal strings (the format they come in)
-    return str(tokens[0]), str(tokens[1])
+    print(f"DEBUG: Raw tokens before conversion: {tokens}")
+    
+    tok_yes = str(tokens[0]).strip()
+    tok_no = str(tokens[1]).strip()
+    
+    print(f"DEBUG: tok_yes before: {tok_yes}")
+    
+    if tok_yes.startswith('0x'):
+        tok_yes = str(int(tok_yes, 16))
+        print(f"DEBUG: tok_yes after conversion: {tok_yes}")
+    if tok_no.startswith('0x'):
+        tok_no = str(int(tok_no, 16))
+        print(f"DEBUG: tok_no after conversion: {tok_no}")
+    
+    return tok_yes, tok_no
 
 
 # Optional: Add a validation function to check token format
